@@ -10,6 +10,8 @@
 		(rev "2")
 		(company "Sergio Gonzalez")
 		(comment 1 "Last edit: 9/17/2025")
+		(comment 2 "To do:")
+		(comment 3 "Verify correct values for the RC filter")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1118IDGS"
@@ -6949,7 +6951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05738987-93dc-4fb7-93fe-df01ed6b37d0")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 300.99 29.2099 0)
 			(effects
 				(font
@@ -7003,7 +7005,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d15455b-fab4-4178-8a32-6858094ac581")
-		(property "Reference" "C10"
+		(property "Reference" "C5"
 			(at 55.88 64.7699 0)
 			(effects
 				(font
@@ -7139,7 +7141,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12fee2c7-ef26-4989-8c99-a0faeae59d86")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 104.14 179.0699 0)
 			(effects
 				(font
@@ -7275,7 +7277,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7290,7 +7292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14782dda-1335-4f68-997c-26e372b66627")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 119.634 134.874 0)
 			(effects
 				(font
@@ -7344,7 +7346,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266b4eba-7527-4267-bdba-bff19e5c3aea")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 77.47 35.5599 0)
 			(effects
 				(font
@@ -7742,7 +7744,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7845,7 +7847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "359733eb-b495-4914-8b28-50b06e6904ae")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 269.748 26.67 0)
 			(effects
 				(font
@@ -7899,7 +7901,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8055,7 +8057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C7"
+		(property "Value" "C11"
 			(at 151.638 147.3201 0)
 			(effects
 				(font
@@ -8182,7 +8184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4823d90a-0e80-475d-afc8-343b7edc2f4d")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 172.72 168.91 90)
 			(effects
 				(font
@@ -8234,7 +8236,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8250,7 +8252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd1e4fc-7bd6-4eb6-9bee-111f97938ccd")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 104.14 166.3699 0)
 			(effects
 				(font
@@ -8304,7 +8306,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592ce12d-e62d-40cf-addc-4e759f982e44")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 261.62 49.5299 0)
 			(effects
 				(font
@@ -8374,7 +8376,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8389,7 +8391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5adf0fa2-ad73-40b7-bc11-53ee11111945")
-		(property "Reference" "BLM21PG221SN1D"
+		(property "Reference" "BLM18AG102SN1D"
 			(at 251.714 161.29 90)
 			(effects
 				(font
@@ -8443,7 +8445,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "BLM21PG221SN1D")
+					(reference "BLM18AG102SN1D")
 					(unit 1)
 				)
 			)
@@ -8458,7 +8460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6023a7ae-bf1a-413f-8fcd-49cb1bdb5835")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 160.02 163.83 90)
 			(effects
 				(font
@@ -8510,7 +8512,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8903,7 +8905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b7c5c7-a85b-48b4-ba03-932945ac6933")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 153.67 161.29 90)
 			(effects
 				(font
@@ -8955,7 +8957,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9036,7 +9038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b9e2cd5-ab62-4f58-8260-1843148a3bb5")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 189.23 45.7199 0)
 			(effects
 				(font
@@ -9090,7 +9092,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82a34155-288e-4f36-ace3-e8d3184b92ab")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 166.37 166.116 90)
 			(effects
 				(font
@@ -9157,7 +9159,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9304,7 +9306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a432cb-74a5-4b3d-83e3-f98d18022c7b")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 64.77 35.5599 0)
 			(effects
 				(font
@@ -9358,7 +9360,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9995,7 +9997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a707291a-e67d-4f4e-9c99-69a12def032b")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 270.51 41.9099 0)
 			(effects
 				(font
@@ -10049,7 +10051,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10064,7 +10066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a963927d-5ceb-4cc1-a979-436875cbcea4")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 29.718 108.204 0)
 			(effects
 				(font
@@ -10118,7 +10120,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b33d3414-ce15-491b-abb4-db174960d05b")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 115.57 86.3599 0)
 			(effects
 				(font
@@ -10323,7 +10325,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10469,7 +10471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6d9b082-e255-4bd3-8b9e-488c7b56ebe6")
-		(property "Reference" "C8"
+		(property "Reference" "C1"
 			(at 283.21 29.2099 90)
 			(effects
 				(font
@@ -10595,7 +10597,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10676,7 +10678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0d80c2b-8f02-4982-ae54-87b3e76cff8a")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 104.14 147.32 90)
 			(effects
 				(font
@@ -10728,7 +10730,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10876,7 +10878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e11810-6096-4161-bdd7-6e4e55aa933f")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 91.44 107.9499 0)
 			(effects
 				(font
@@ -10930,7 +10932,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11435,7 +11437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e517768d-f709-42bb-9b88-65352b27d116")
-		(property "Reference" "R12"
+		(property "Reference" "R5"
 			(at 102.616 134.62 0)
 			(effects
 				(font
@@ -11489,7 +11491,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11505,7 +11507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8fb789a-cc89-44ce-b12e-9ded62cd79b7")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 35.56 80.01 90)
 			(effects
 				(font
@@ -11557,7 +11559,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11573,7 +11575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efef681f-3146-4834-aa2f-70f9c1b3fa35")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 74.93 107.9499 0)
 			(effects
 				(font
@@ -11627,7 +11629,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f55500f5-1334-4f91-8e1c-d7d14e90100b")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 48.26 80.01 90)
 			(effects
 				(font
@@ -11762,7 +11764,7 @@
 		(instances
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
