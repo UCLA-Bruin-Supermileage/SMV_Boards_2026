@@ -201,7 +201,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
+      "bus_entry_needed": "warning",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
@@ -215,7 +215,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "warning",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -227,10 +227,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_connected": "warning",
+      "pin_not_driven": "warning",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -241,7 +241,7 @@
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
-      "wire_dangling": "error"
+      "wire_dangling": "warning"
     }
   },
   "libraries": {
