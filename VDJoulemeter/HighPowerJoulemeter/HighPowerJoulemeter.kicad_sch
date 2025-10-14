@@ -1701,7 +1701,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOT-23-5_MC_MCH"
+			(property "Footprint" "SMV_ICs:SOT-23-5_MC_MCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1728,14 +1728,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "MCP6286T-E/OT"
@@ -5759,6 +5751,12 @@
 		(uuid "4186541c-3e69-45de-8f3d-d742c4b1c000")
 	)
 	(junction
+		(at 373.38 355.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43b7f2d1-921b-4cfb-b71c-0a87641c9822")
+	)
+	(junction
 		(at 55.88 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6415,10 +6413,6 @@
 		(uuid "e8f49e37-ae28-44a9-8413-93da4408f5b4")
 	)
 	(no_connect
-		(at 107.95 176.53)
-		(uuid "ed5771df-4e6f-4d6c-a43e-585a94c62893")
-	)
-	(no_connect
 		(at 416.56 194.31)
 		(uuid "f0e736b5-fea4-4014-a679-2b8d7669d859")
 	)
@@ -6890,7 +6884,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 346.71) (xy 373.38 349.25)
+			(xy 373.38 346.71) (xy 373.38 355.6)
 		)
 		(stroke
 			(width 0)
@@ -7417,6 +7411,16 @@
 			(type default)
 		)
 		(uuid "5e589524-b49f-4755-bb82-899e13b8f9aa")
+	)
+	(wire
+		(pts
+			(xy 373.38 355.6) (xy 373.38 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60082d71-820a-4c4d-9c09-ea71cc9c4e8e")
 	)
 	(wire
 		(pts
@@ -8180,7 +8184,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 309.88) (xy 387.35 313.69)
+			(xy 387.35 309.88) (xy 387.35 318.77)
 		)
 		(stroke
 			(width 0)
@@ -9668,6 +9672,16 @@
 		)
 		(uuid "b464c29a-c488-432a-8570-c5472f7801b7")
 	)
+	(label "V_Ref"
+		(at 107.95 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca74189d-5d64-425e-94c5-be11d57d5eea")
+	)
 	(label "CAN_H"
 		(at 397.51 304.8 0)
 		(effects
@@ -9756,7 +9770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 466.09 153.67 0)
 			(effects
 				(font
@@ -9823,7 +9837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -10091,7 +10105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 448.31 64.77 0)
 			(effects
 				(font
@@ -10158,7 +10172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 393.7 146.05 0)
 			(effects
 				(font
@@ -10225,7 +10239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 314.96 186.69 0)
 			(effects
 				(font
@@ -10358,7 +10372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 53.34 171.45 0)
 			(effects
 				(font
@@ -10601,7 +10615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 373.38 349.25 0)
+		(at 373.38 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10610,7 +10624,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d8206c3-34a6-4d98-a881-5de8afc8dffa")
 		(property "Reference" "#PWR023"
-			(at 373.38 355.6 0)
+			(at 373.38 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 354.33 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +10641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 349.25 0)
+			(at 373.38 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 349.25 0)
+			(at 373.38 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 349.25 0)
+			(at 373.38 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 464.82 161.29 0)
 			(effects
 				(font
@@ -11390,7 +11404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -11593,7 +11607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 171.45 0)
 			(effects
 				(font
@@ -11660,7 +11674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 195.58 83.82 0)
 			(effects
 				(font
@@ -11727,7 +11741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 344.17 327.66 0)
 			(effects
 				(font
@@ -12057,7 +12071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 379.73 62.23 0)
 			(effects
 				(font
@@ -12194,7 +12208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 288.29 83.82 0)
 			(effects
 				(font
@@ -12326,7 +12340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 106.68 330.2 0)
 			(effects
 				(font
@@ -12393,7 +12407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 378.46 138.43 0)
 			(effects
 				(font
@@ -12591,7 +12605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 195.58 308.61 0)
 			(effects
 				(font
@@ -12724,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 115.57 165.1 0)
 			(effects
 				(font
@@ -13124,7 +13138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 134.62 322.58 0)
 			(effects
 				(font
@@ -13191,7 +13205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 388.62 173.99 0)
 			(effects
 				(font
@@ -13258,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 317.5 304.8 0)
 			(effects
 				(font
@@ -13325,7 +13339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 52.07 182.88 0)
 			(effects
 				(font
@@ -13667,7 +13681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 377.19 68.58 0)
 			(effects
 				(font
@@ -13986,7 +14000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 387.35 313.69 0)
+		(at 387.35 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13995,7 +14009,7 @@
 		(fields_autoplaced yes)
 		(uuid "68be2b84-7971-424f-b18b-9cf5ed84830e")
 		(property "Reference" "#PWR04"
-			(at 387.35 320.04 0)
+			(at 387.35 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,7 +14018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 387.35 318.77 0)
+			(at 387.35 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14012,7 +14026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 313.69 0)
+			(at 387.35 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14021,7 +14035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 313.69 0)
+			(at 387.35 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +14044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 313.69 0)
+			(at 387.35 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 194.31 334.01 0)
 			(effects
 				(font
@@ -14211,7 +14225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -14278,7 +14292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 60.96 165.1 0)
 			(effects
 				(font
@@ -14345,7 +14359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 414.02 346.71 0)
 			(effects
 				(font
@@ -14640,7 +14654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 373.38 346.71 0)
 			(effects
 				(font
@@ -14707,7 +14721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 481.33 156.21 0)
 			(effects
 				(font
@@ -14774,7 +14788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 388.62 182.88 0)
 			(effects
 				(font
@@ -14841,7 +14855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -14975,7 +14989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 168.91 179.07 0)
 			(effects
 				(font
@@ -15042,7 +15056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 466.09 143.51 0)
 			(effects
 				(font
@@ -15109,7 +15123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 387.35 307.34 0)
 			(effects
 				(font
@@ -16073,7 +16087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 476.25 176.53 0)
 			(effects
 				(font
@@ -16140,7 +16154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 355.6 346.71 0)
 			(effects
 				(font
@@ -16765,7 +16779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 389.89 190.5 0)
 			(effects
 				(font
@@ -16970,7 +16984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 392.43 304.8 0)
 			(effects
 				(font
@@ -17037,7 +17051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 203.2 71.12 0)
 			(effects
 				(font
@@ -17641,7 +17655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 410.21 360.68 0)
 			(effects
 				(font
@@ -17778,7 +17792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 231.14 190.5 0)
 			(effects
 				(font
@@ -18045,7 +18059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 381 212.09 0)
 			(effects
 				(font
@@ -18244,7 +18258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 241.3 193.04 0)
 			(effects
 				(font
@@ -18311,7 +18325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 407.67 207.01 0)
 			(effects
 				(font
@@ -18377,7 +18391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 193.04 325.12 0)
 			(effects
 				(font
@@ -18509,7 +18523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 110.49 185.42 0)
 			(effects
 				(font
@@ -18576,7 +18590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 455.93 163.83 0)
 			(effects
 				(font
@@ -18785,7 +18799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 478.79 207.01 0)
 			(effects
 				(font
@@ -19120,7 +19134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 379.73 288.29 0)
 			(effects
 				(font
@@ -19253,7 +19267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 182.88 342.9 0)
 			(effects
 				(font
@@ -19320,7 +19334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 403.86 166.37 0)
 			(effects
 				(font
@@ -19452,7 +19466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -19654,7 +19668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 302.26 200.66 0)
 			(effects
 				(font
@@ -19787,7 +19801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 464.82 158.75 0)
 			(effects
 				(font
@@ -20113,7 +20127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -20224,6 +20238,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 373.38 355.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc238ed2-e60a-4b1d-8782-f6030e256c25")
+		(property "Reference" "TP67"
+			(at 378.46 354.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 378.46 356.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 373.38 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 373.38 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7364a049-cc88-41c3-ad5b-30e0c30e0e55")
+		)
+		(instances
+			(project "HighPowerJoulemeter"
+				(path "/d9b1233e-8a2d-46d3-b6ba-86b7db1904e8"
+					(reference "TP67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 105.41 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20250,7 +20331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 110.49 176.53 0)
 			(effects
 				(font
@@ -20317,7 +20398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 120.65 346.71 0)
 			(effects
 				(font
@@ -20384,7 +20465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -20451,7 +20532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 337.82 316.23 0)
 			(effects
 				(font
@@ -20518,7 +20599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 110.49 323.85 0)
 			(effects
 				(font
@@ -20651,7 +20732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 204.47 101.6 0)
 			(effects
 				(font
@@ -20717,7 +20798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 379.73 39.37 0)
 			(effects
 				(font
@@ -20784,7 +20865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 198.12 347.98 0)
 			(effects
 				(font
@@ -20916,7 +20997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 341.63 302.26 0)
 			(effects
 				(font
@@ -21047,7 +21128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "SMV_ICs:SOT-23-5_MC_MCH"
 			(at 241.3 186.69 0)
 			(effects
 				(font
@@ -21424,7 +21505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 391.16 346.71 0)
 			(effects
 				(font
@@ -21490,7 +21571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 463.55 62.23 0)
 			(effects
 				(font
@@ -21772,7 +21853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 464.82 148.59 0)
 			(effects
 				(font
