@@ -176,7 +176,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "004e33d9-05b3-4af7-8081-ccf071e90a3d")
-		(at 115.72695 130.633499)
+		(at 389.9625 201.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
@@ -1086,7 +1086,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "04ec703f-d01f-41ec-a4e1-7451e19a0fba")
-		(at 178.75 135.55)
+		(at 171.25 141.3)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP35"
@@ -1607,7 +1607,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "0fea2b2f-b960-4430-b333-80ce34c66f78")
-		(at 169.32695 130.523499)
+		(at 176 130.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP16"
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 6.37305 3.526501 0)
+			(at -1.12695 9.276501 0)
 			(layer "F.Fab")
 			(uuid "f47cf326-aa7d-4d01-a1bb-e1d78f28a8ab")
 			(effects
@@ -2327,7 +2327,7 @@
 	(footprint "SMV_ICs:RDN0011A-MFG"
 		(layer "F.Cu")
 		(uuid "1725c5be-41dd-4563-ba5e-c1cc7663f30b")
-		(at 606.229999 -40.349999)
+		(at 444.979999 19.400001)
 		(tags "PTPSM365R6FRDN ")
 		(property "Reference" "U6"
 			(at 0 0 0)
@@ -2972,7 +2972,7 @@
 			(layer "F.Fab")
 			(uuid "08491354-f2ef-4f2f-ace3-86b05fb4c733")
 		)
-		(fp_text user "Designator402"
+		(fp_text user "BuckConverter"
 			(at -2.4892 -3.937 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3547,7 +3547,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "1f0ba153-527f-489e-995b-65bae8e4f572")
-		(at 172.37695 121.373499)
+		(at 13.25 328.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP26"
@@ -4836,7 +4836,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "27d79013-b65b-432e-97b7-3b1bead19c79")
-		(at 184.85 132.5)
+		(at 428.5 189.15)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP55"
@@ -4997,11 +4997,11 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "29ba6a5a-69dc-46eb-8fc8-09096cb61245")
-		(at 181.8 138.6)
+		(at 382.5 195.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP48"
-			(at 0 -1.448 0)
+			(at -2.5 1.752 0)
 			(layer "F.SilkS")
 			(uuid "845fa849-f502-4a50-8b31-e129793554df")
 			(effects
@@ -5012,7 +5012,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 0)
+			(at 0.25 3 0)
 			(layer "F.Fab")
 			(uuid "b4fb6c4c-1d1d-4c38-a04c-49988bd8530d")
 			(effects
@@ -5134,7 +5134,7 @@
 			(uuid "9ac7e263-e912-4b50-8787-4d3f25ad15fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
+			(at -2.5 1.75 0)
 			(layer "F.Fab")
 			(uuid "dbb805e1-8a81-4fd2-bec0-2891cd56972d")
 			(effects
@@ -5173,7 +5173,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 6.37305 3.526501 0)
+			(at -1.12695 9.276501 0)
 			(layer "F.Fab")
 			(uuid "1e6e77b2-b5ec-414f-92b0-31b5da917cb7")
 			(effects
@@ -5679,7 +5679,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3964ce7d-b61f-4db4-a7d7-9835d31519a9")
-		(at 115.72695 127.623499)
+		(at 28.2125 318)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
@@ -7781,7 +7781,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "59c14734-649a-47d8-b6d8-56d29df118fd")
-		(at 178.47695 115.273499)
+		(at 382.25 184)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP49"
@@ -8141,7 +8141,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "5c0c7fb4-d6e6-4d5f-a489-ec79f3cd8d70")
-		(at 181.52695 127.473499)
+		(at 421.7335 74.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP64"
@@ -8156,7 +8156,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 6.37305 3.526501 0)
+			(at 14.27305 11.026501 0)
 			(layer "F.Fab")
 			(uuid "cca8c3ff-2d3d-4cf9-b5fa-727ad33ca665")
 			(effects
@@ -8302,7 +8302,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "5cc42bdc-c94f-4850-a253-a67060b7c7c2")
-		(at 178.75 132.5)
+		(at 171.25 138.25)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP34"
@@ -8463,7 +8463,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "63684f71-1536-4467-8ddf-2767892eff0e")
-		(at 464.63 140.32)
+		(at 564.5 95.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP42"
@@ -8946,7 +8946,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "698ede5d-dc3b-4c5e-94e6-6dd880df2ee3")
-		(at 179.87695 51.173499)
+		(at 23.75 329.5)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP45"
@@ -9107,7 +9107,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6a960276-a38a-41c9-a83d-62b3d21484f7")
-		(at 120.53695 124.613499)
+		(at 401.49175 71)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
@@ -10187,7 +10187,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "7e6873b6-dcb8-4d57-a131-67c11e51c174")
-		(at 178.47695 118.323499)
+		(at 381.25 264)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP50"
@@ -10202,7 +10202,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at -162.72695 128.876501 0)
+			(at -3.25 2 0)
 			(layer "F.Fab")
 			(uuid "cfef9c99-0c7d-471a-838e-db2d1045aa60")
 			(effects
@@ -10348,7 +10348,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "7edf307d-ebc8-4a8e-86a9-e8994960c979")
-		(at 166.27695 133.573499)
+		(at 416.2335 76.25)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP7"
@@ -11809,7 +11809,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8b62e8b1-5042-47ad-8de0-7437f3f8db51")
-		(at 455.0925 137.82)
+		(at 554.9625 93.25)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
@@ -12008,11 +12008,11 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "8c64f1e5-54fd-49eb-864b-e7eff5dd4456")
-		(at 181.8 135.55)
+		(at 382.5 201.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP46"
-			(at 0 -1.448 0)
+			(at -3.25 0.502 0)
 			(layer "F.SilkS")
 			(uuid "0245efa3-3620-4812-bf7c-ae99189005c6")
 			(effects
@@ -12023,7 +12023,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 0)
+			(at -3.25 3.5 0)
 			(layer "F.Fab")
 			(uuid "e62e6bd4-8889-4ce2-931b-02c61a7f2570")
 			(effects
@@ -12145,7 +12145,7 @@
 			(uuid "ecdc035d-fd8e-47c8-b80d-ba22b590505b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
+			(at -3.25 0.5 0)
 			(layer "F.Fab")
 			(uuid "d7fbf461-f60d-4a3d-8013-e3587cee65cf")
 			(effects
@@ -12330,7 +12330,7 @@
 	(footprint "SMV_ICs:MODULE_NUCLEO-F446RE"
 		(layer "F.Cu")
 		(uuid "927d2671-67ba-4a10-bc6a-073188772c18")
-		(at 510.87 162.55)
+		(at 618.38 117.07)
 		(property "Reference" "U1"
 			(at -31.825 -42.635 0)
 			(layer "F.SilkS")
@@ -14363,7 +14363,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "9506d814-af46-4135-9bd5-8dc2f8ec0aff")
-		(at 179.87695 63.273499)
+		(at 458.75 232.25)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP54"
@@ -15141,7 +15141,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "9b9c65ac-b42e-4789-bf52-aa474339cb9c")
-		(at 185 27)
+		(at 422.9835 66.25)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP63"
@@ -15302,11 +15302,11 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "9da92655-843c-425c-8311-477f1f864c3e")
-		(at 181.8 132.5)
+		(at 189 132.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP43"
-			(at 0 -1.448 0)
+			(at -7.5 4.302 0)
 			(layer "F.SilkS")
 			(uuid "609ea7ff-6786-4323-a4d9-2f32fe06dffb")
 			(effects
@@ -15317,7 +15317,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 0)
+			(at -7.5 7.3 0)
 			(layer "F.Fab")
 			(uuid "e259d72d-374b-42b2-a449-2688d74adf10")
 			(effects
@@ -15439,7 +15439,7 @@
 			(uuid "d18f71dc-04c9-4f9f-9a75-3eb8d9e07f3f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
+			(at -7.5 4.3 0)
 			(layer "F.Fab")
 			(uuid "8a53d679-a249-41fc-8f60-eeb4b8159cfa")
 			(effects
@@ -15624,7 +15624,7 @@
 	(footprint "SMV_Passives:Big_Chunky_Cap"
 		(layer "F.Cu")
 		(uuid "a00cb9ba-0888-467c-84ee-b5bf3d456d2b")
-		(at 206.99175 101.5)
+		(at 401.74175 55.5)
 		(property "Reference" "C10"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -16245,7 +16245,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "ab5d4ade-9d1b-4108-aad1-9c7f9a75c456")
-		(at 178.75 138.6)
+		(at 171.25 144.35)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP36"
@@ -17088,7 +17088,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "b15774ff-e4b2-44a2-be35-618b608052e4")
-		(at 166.27695 130.523499)
+		(at 414.7335 70)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP6"
@@ -17808,7 +17808,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "b21eeb1a-095f-4a93-8257-c03fb27bcb7f")
-		(at 172.37695 124.423499)
+		(at 18.5 328.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP27"
@@ -18973,7 +18973,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c2044c20-e0c7-49f9-9958-7f9503a64caa")
-		(at 125.34695 124.613499)
+		(at 418.2125 189.75)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
@@ -19172,7 +19172,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "c2d2217d-dcf7-4daa-b113-ea254026790e")
-		(at 192.5 78.5)
+		(at 429.2335 72)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP65"
@@ -19333,7 +19333,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "c8d73d4e-9cf3-4437-b96c-8a7aeecbb975")
-		(at 184.85 135.55)
+		(at 428.5 192.2)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP56"
@@ -19494,7 +19494,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "cb0ba75c-88c1-438e-b874-008b75ed52ee")
-		(at 184.85 138.6)
+		(at 428.5 195.25)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP57"
@@ -20015,7 +20015,7 @@
 	(footprint "SMV_ICs:SOT-23-5_M5_MCH"
 		(layer "F.Cu")
 		(uuid "cdcb2ee4-326f-4aa3-957f-f404169a9db8")
-		(at 519.13475 35.450001)
+		(at 425 55.25)
 		(tags "MIC5219-3.3YM5-TR ")
 		(property "Reference" "U9"
 			(at 0 0 0)
@@ -20483,7 +20483,7 @@
 				)
 			)
 		)
-		(fp_text user "*"
+		(fp_text user "LDO"
 			(at -1.61925 -2.601 0)
 			(layer "F.SilkS")
 			(uuid "e2d8874c-c335-428a-b19e-9688d1929c09")
@@ -23180,7 +23180,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "d268c3b8-0af0-4ed2-91cb-2b85e2680a61")
-		(at 178.47695 124.423499)
+		(at 445.5 232.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP52"
@@ -23341,7 +23341,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "d531d93d-175d-41a2-9ad8-16cc08e9f324")
-		(at 179.87695 57.223499)
+		(at 382 190)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP47"
@@ -23502,7 +23502,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "d9bec062-912a-4d6e-bc6e-7a543b53feb0")
-		(at 178.47695 127.473499)
+		(at 451.75 232.75)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP53"
@@ -23862,7 +23862,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "dd50a591-1b8e-43a6-837c-41f762dcc96a")
-		(at 166.27695 136.623499)
+		(at 9.25 329)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP8"
@@ -25682,7 +25682,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "f4ab753d-b5a2-4b8f-abfa-01caa14c5456")
-		(at 178.47695 121.373499)
+		(at 385.25 264)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP51"
@@ -25697,7 +25697,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at -162.72695 128.876501 0)
+			(at 4.25 1 0)
 			(layer "F.Fab")
 			(uuid "9231edd4-c371-44c1-ab54-9da47150daa1")
 			(effects
@@ -25843,7 +25843,7 @@
 	(footprint "TestPoint:TestPoint_Pad_4.0x4.0mm"
 		(layer "F.Cu")
 		(uuid "f5b1ad39-2daa-461b-9fcd-b9a12adc2cd3")
-		(at 198 34.5)
+		(at 382.75 257.25)
 		(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP67"
@@ -26004,7 +26004,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f834f6fc-10be-4d3f-a694-439372fd1b1d")
-		(at 109.5 117.5)
+		(at 401.49175 66)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -26364,7 +26364,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ff45cd61-c960-4201-9585-73475d3a8105")
-		(at 455.0925 147.82)
+		(at 554.9625 103.25)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
