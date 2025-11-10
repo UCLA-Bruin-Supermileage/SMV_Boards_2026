@@ -2386,12 +2386,6 @@
 		(uuid "2787daed-4170-4fa9-9f8e-4fb3eceb9e1e")
 	)
 	(junction
-		(at 128.27 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35b3730b-cbfe-4a61-a775-6d6a0612b13b")
-	)
-	(junction
 		(at 128.27 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2675,16 +2669,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 132.08) (xy 128.27 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b49b711-366c-44f3-ac60-6cb11a5a8b57")
-	)
-	(wire
-		(pts
 			(xy 171.45 116.84) (xy 171.45 124.46)
 		)
 		(stroke
@@ -2712,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "1992ff14-3b1b-4f00-95de-78664aedb0f4")
-	)
-	(wire
-		(pts
-			(xy 128.27 137.16) (xy 128.27 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f0d895-5585-45ed-9e32-e833daf08c49")
 	)
 	(wire
 		(pts
@@ -2825,16 +2799,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49879db7-da3f-48f2-9967-76bd035dc035")
-	)
-	(wire
-		(pts
 			(xy 118.11 36.83) (xy 120.65 36.83)
 		)
 		(stroke
@@ -2845,16 +2809,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 137.16) (xy 115.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "561f00cd-1370-4a10-9644-561c59db594f")
-	)
-	(wire
-		(pts
 			(xy 106.68 57.15) (xy 106.68 59.69)
 		)
 		(stroke
@@ -2862,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "5985051b-64f8-44ed-bb47-573201899f6d")
+	)
+	(wire
+		(pts
+			(xy 128.27 106.68) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6520b592-1a1a-416f-8553-04b5945597fe")
 	)
 	(wire
 		(pts
@@ -2965,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 134.62) (xy 115.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a376fa0a-598e-42b4-8e01-e30ac6012f29")
-	)
-	(wire
-		(pts
 			(xy 138.43 57.15) (xy 138.43 66.04)
 		)
 		(stroke
@@ -3015,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 128.27 120.65)
+			(xy 128.27 118.11) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3052,16 +3006,6 @@
 			(type default)
 		)
 		(uuid "bd59df88-64d9-442a-a288-655ceae8d422")
-	)
-	(wire
-		(pts
-			(xy 128.27 120.65) (xy 128.27 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf90d292-c944-4370-9276-338fe8630b89")
 	)
 	(wire
 		(pts
@@ -3102,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "dac97610-819a-4013-80ca-e23248ef39a1")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34ab4f4-0bea-4ecc-9646-4b29d0c562e3")
 	)
 	(wire
 		(pts
@@ -3396,7 +3350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMV_Joule:MODULE_NUCLEO-F446RE"
+		(property "Footprint" ""
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -3661,72 +3615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 115.57 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a88a579-bf59-4543-a4f1-4cec6b0f1519")
-		(property "Reference" "#PWR024"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3A"
-			(at 112.522 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da47a1d2-3007-4c21-a0ef-a61de0d915e8")
-		)
-		(instances
-			(project "Joule Meter"
-				(path "/3c05686f-5554-4d70-b348-db94545e7981/af1485c9-cb4f-4935-8548-545c20ad81e7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 133.35 0)
 		(unit 1)
@@ -3884,7 +3772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" ""
 			(at 128.27 41.91 0)
 			(effects
 				(font
@@ -3948,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" ""
 			(at 118.11 31.75 0)
 			(effects
 				(font
@@ -3982,73 +3870,6 @@
 			(project ""
 				(path "/3c05686f-5554-4d70-b348-db94545e7981/af1485c9-cb4f-4935-8548-545c20ad81e7"
 					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 129.54 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "512b8cb2-9a09-4b9c-89f5-999654e76b1a")
-		(property "Reference" "TP25"
-			(at 134.62 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "POWER-3V3D"
-			(at 134.62 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 129.54 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 129.54 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44eb496c-5fe9-492f-91ae-2c3d076e4129")
-		)
-		(instances
-			(project ""
-				(path "/3c05686f-5554-4d70-b348-db94545e7981/af1485c9-cb4f-4935-8548-545c20ad81e7"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -4146,7 +3967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 169.926 113.284 90)
 			(effects
 				(font
@@ -4216,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 103.8352 130.81 0)
 			(effects
 				(font
@@ -4268,7 +4089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c450ec-293c-4c75-bf3a-9331b9135b09")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 95.25 125.7299 0)
 			(effects
 				(font
@@ -4286,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 92.4052 130.81 0)
 			(effects
 				(font
@@ -4322,7 +4143,7 @@
 		(instances
 			(project "Joule Meter"
 				(path "/3c05686f-5554-4d70-b348-db94545e7981/af1485c9-cb4f-4935-8548-545c20ad81e7"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4151,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 128.27 138.43 180)
+		(at 128.27 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4338,7 +4159,7 @@
 		(dnp no)
 		(uuid "96503072-df7a-454b-80da-b7f98a008b8f")
 		(property "Reference" "TP17"
-			(at 129.54 141.732 0)
+			(at 129.54 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4168,7 @@
 			)
 		)
 		(property "Value" "POWER-3V3A"
-			(at 129.54 143.51 0)
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +4176,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 123.19 138.43 0)
+		(property "Footprint" ""
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 138.43 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4195,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 128.27 138.43 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 172.466 113.284 90)
 			(effects
 				(font
@@ -4482,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3D"
+		(property "Value" "+3V3A"
 			(at 112.522 114.554 0)
 			(effects
 				(font
@@ -4550,7 +4371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "R_US"
 			(at 118.11 60.9599 0)
 			(effects
 				(font
@@ -4560,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 114.554 59.436 90)
 			(effects
 				(font
@@ -4734,7 +4555,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 128.27 128.27 0)
+		(at 128.27 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4742,7 +4563,7 @@
 		(dnp no)
 		(uuid "f0ce0d84-c7ac-4d3b-9d3f-7779a2ff6e8c")
 		(property "Reference" "FERITE_BEAD1"
-			(at 129.54 131.826 0)
+			(at 129.54 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,8 +4571,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FB1"
-			(at 130.81 130.048 0)
+		(property "Value" "FB2"
+			(at 130.81 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,8 +4580,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMV_Joule:Ferite_Joule"
-			(at 126.492 128.27 90)
+		(property "Footprint" ""
+			(at 126.492 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 128.27 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4599,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 128.27 128.27 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "R_US"
 			(at 123.19 60.9599 0)
 			(effects
 				(font
@@ -4831,7 +4652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 119.634 59.436 90)
 			(effects
 				(font
@@ -4958,7 +4779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "R_US"
 			(at 128.27 60.9599 0)
 			(effects
 				(font
@@ -4968,7 +4789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 124.714 59.436 90)
 			(effects
 				(font
