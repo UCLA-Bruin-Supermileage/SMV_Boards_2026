@@ -6184,12 +6184,6 @@
 		(uuid "5e59b59d-e6e9-4246-9904-6bdb4ee4aaa5")
 	)
 	(junction
-		(at 91.44 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "608a3179-89e8-4b2a-8a83-1ca87c08556e")
-	)
-	(junction
 		(at 105.41 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6376,12 +6370,6 @@
 		(uuid "a2a8442c-813a-4ff6-a376-223cd9370a8c")
 	)
 	(junction
-		(at 46.99 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4332ef3-fe21-41e1-aa40-1c87ecc65807")
-	)
-	(junction
 		(at 461.01 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6440,12 +6428,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c06f81cc-2f49-438c-b14c-c6a3e3597dce")
-	)
-	(junction
-		(at 46.99 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c13d4503-8e0c-45a6-86e3-11750157c62d")
 	)
 	(junction
 		(at 29.21 172.72)
@@ -6518,12 +6500,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e22202-cb9c-403b-9f39-f094aedcdbfb")
-	)
-	(junction
-		(at 91.44 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8fd3473-79ed-4548-8259-929555efb143")
 	)
 	(junction
 		(at 383.54 173.99)
@@ -8333,16 +8309,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 62.23) (xy 91.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d46b29e-1316-453d-9224-2c570afee9f4")
-	)
-	(wire
-		(pts
 			(xy 400.05 181.61) (xy 416.56 181.61)
 		)
 		(stroke
@@ -9070,16 +9036,6 @@
 			(type default)
 		)
 		(uuid "c2b74e77-c1df-47b7-a5d0-ac9a96ee0bf9")
-	)
-	(wire
-		(pts
-			(xy 46.99 60.96) (xy 46.99 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4344ca0-bd6f-49a6-8ab8-2464751a50be")
 	)
 	(wire
 		(pts
@@ -9871,7 +9827,7 @@
 		)
 		(uuid "4e12a70a-94a3-4f16-9516-5597815db44f")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 379.73 346.71 0)
 		(effects
 			(font
@@ -9911,7 +9867,7 @@
 		)
 		(uuid "65643446-8f86-4cf2-9682-c0278137f38e")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 397.51 307.34 0)
 		(effects
 			(font
@@ -9921,7 +9877,7 @@
 		)
 		(uuid "70a71d3a-3b6e-41e3-9456-8d482b1fd80c")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 393.7 346.71 180)
 		(effects
 			(font
@@ -9981,7 +9937,7 @@
 		)
 		(uuid "79f3e621-91fc-48c5-8598-5f9dfb158188")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 358.14 346.71 0)
 		(effects
 			(font
@@ -10031,7 +9987,7 @@
 		)
 		(uuid "ca74189d-5d64-425e-94c5-be11d57d5eea")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 397.51 304.8 0)
 		(effects
 			(font
@@ -10061,7 +10017,7 @@
 		)
 		(uuid "ebdea95f-e188-418e-bec9-0de6d5047527")
 	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 426.72 346.71 180)
 		(effects
 			(font
@@ -21760,7 +21716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_ICs:SOIC_DBVRQ1_TEX"
+		(property "Footprint" "SMV_ICs:DVG0010A-MFG"
 			(at 62.23 168.91 0)
 			(effects
 				(font
