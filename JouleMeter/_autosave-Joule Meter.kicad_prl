@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.47999998927116394
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -45,11 +45,12 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ff5f55b5",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff8f",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Joule Meter.kicad_prl",
+    "filename": "_autosave-Joule Meter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,18 +92,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
+      156,
+      141,
+      103,
       71,
-      91,
-      91,
-      91,
-      91
+      103,
+      103,
+      103,
+      74,
+      103,
+      103,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
