@@ -5753,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 29.21) (xy 21.59 26.67)
+			(xy 265.43 67.31) (xy 267.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5843,16 +5843,6 @@
 	)
 	(wire
 		(pts
-			(xy -33.02 29.21) (xy 21.59 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2293b3d4-e599-4d55-a50a-dd43ca0b9d35")
-	)
-	(wire
-		(pts
 			(xy 182.88 81.28) (xy 196.85 81.28)
 		)
 		(stroke
@@ -5880,16 +5870,6 @@
 			(type default)
 		)
 		(uuid "27278b8f-f117-490a-a911-fd57e7e0afbe")
-	)
-	(wire
-		(pts
-			(xy 24.13 26.67) (xy 24.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "276d9eaa-ddd0-4ee3-a069-d1b85110bc47")
 	)
 	(wire
 		(pts
@@ -6010,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "66b98f14-29b2-4160-b6c6-f67ec4f30b7d")
+	)
+	(wire
+		(pts
+			(xy 265.43 60.96) (xy 303.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c295868-33cb-471f-b891-792b5990d98c")
 	)
 	(wire
 		(pts
@@ -6193,7 +6183,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 69.85) (xy 237.49 69.85)
+			(xy 234.95 69.85) (xy 267.97 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6230,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "be43b749-a1fd-4d95-b8fb-06f6b16c1915")
+	)
+	(wire
+		(pts
+			(xy 265.43 67.31) (xy 265.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cfa300-1e91-46ef-abe4-61ce2be4ca83")
 	)
 	(wire
 		(pts
@@ -6363,28 +6363,6 @@
 			)
 		)
 	)
-	(global_label "Boost converter"
-		(shape input)
-		(at -33.02 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ce2f956-c2fc-4ee6-b83f-f0f2f3a3ce70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -51.1241 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_H"
 		(shape input)
 		(at 226.06 127 0)
@@ -6407,9 +6385,9 @@
 			)
 		)
 	)
-	(global_label "power_in n"
+	(global_label "boost converter"
 		(shape input)
-		(at 237.49 69.85 0)
+		(at 303.53 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6417,36 +6395,14 @@
 			)
 			(justify left)
 		)
-		(uuid "40a4eac4-83b9-4a25-9597-fba19070e96e")
+		(uuid "c19f3885-58ac-48a6-a8bd-dcc3074a0ce5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8165 69.85 0)
+			(at 321.5131 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "power_in n"
-		(shape input)
-		(at 24.13 31.75 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "424f9e4c-496d-40b2-b82b-f7c117a56e42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 45.0765 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7956,7 +7912,7 @@
 	)
 	(symbol
 		(lib_id "SMV_Custom:XT60-M")
-		(at 24.13 21.59 90)
+		(at 273.05 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7965,7 +7921,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e311843-210e-4757-9a4d-e61e75324e4c")
 		(property "Reference" "J2"
-			(at 27.94 16.5099 90)
+			(at 278.1301 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7930,7 @@
 			)
 		)
 		(property "Value" "XT60-M"
-			(at 27.94 19.0499 90)
+			(at 275.5901 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7939,7 @@
 			)
 		)
 		(property "Footprint" "SMV_Connectors:AMASS_XT60-M"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +7949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +7958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +7967,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +7977,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +7987,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +7997,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8007,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8017,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8027,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8037,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8047,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8057,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n                        \n"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8067,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8077,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 24.13 21.59 0)
+			(at 273.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
