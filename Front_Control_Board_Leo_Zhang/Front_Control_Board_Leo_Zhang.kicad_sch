@@ -7463,6 +7463,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "399381be-5581-4b3a-a624-850806c5cdf9")
+		(property "Reference" "#PWR014"
+			(at 76.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5541baa-764d-4d6a-a9ed-dc7b0c4067a9")
+		)
+		(instances
+			(project "Front_Control_Board_Leo_Zhang"
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.99 134.62 90)
 		(unit 1)
@@ -9881,6 +9946,77 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:430450200")
+		(at 69.85 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc2a89a3-e5ae-48ad-bc48-24ce1b8b1245")
+		(property "Reference" "J5"
+			(at 57.404 183.3879 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "430450200"
+			(at 57.404 185.9279 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:CONN_SD-43045-001_02_MOL"
+			(at 69.85 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "430450200"
+			(at 72.644 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa25f6b-55a4-45a9-845a-5731f78efc18")
+		)
+		(pin "2"
+			(uuid "acd3bbd0-2842-43c8-933a-4b7c7a847018")
+		)
+		(instances
+			(project "Front_Control_Board_Leo_Zhang"
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 251.46 46.99 0)
 		(unit 1)
@@ -10823,6 +10959,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d70fb442-de6f-4b18-8ef7-165c0cabe9e7")
+		(property "Reference" "#PWR013"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e206e77a-2acc-4db5-98f1-973f13d0b7f5")
+		)
+		(instances
+			(project ""
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 119.38 0)
 		(unit 1)
@@ -11098,6 +11301,71 @@
 			(project ""
 				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 69.85 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e29180f8-c9cc-4f96-a348-e38475e9c43d")
+		(property "Reference" "#PWR033"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 74.93 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 69.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26540e99-085c-43da-bb77-5cfe5fcd03e2")
+		)
+		(instances
+			(project "Front_Control_Board_Leo_Zhang"
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
