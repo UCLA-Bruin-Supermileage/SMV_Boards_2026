@@ -1,12 +1,10 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -47,6 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
@@ -60,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HighPowerJoulemeter.kicad_prl",
+    "filename": "Rear_Control_Board_Levi_Lichtmaher.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -74,11 +73,6 @@
       false,
       false,
       false,
-<<<<<<< HEAD
-=======
-      false,
-      false,
->>>>>>> origin/main
       false
     ],
     "col_order": [
@@ -91,7 +85,6 @@
       6,
       7,
       8,
-<<<<<<< HEAD
       9
     ],
     "col_widths": [
@@ -106,13 +99,6 @@
       91,
       91
     ],
-=======
-      9,
-      10,
-      11
-    ],
-    "col_widths": [],
->>>>>>> origin/main
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
