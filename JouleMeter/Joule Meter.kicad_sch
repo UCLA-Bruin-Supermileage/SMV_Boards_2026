@@ -7,7 +7,7 @@
 	(title_block
 		(title "Joule Meter (w/ Current Sense)")
 		(date "9/16/2025")
-		(rev "10/17/2025")
+		(rev "12/26/2025")
 		(company "by Sergio Gonzalez")
 		(comment 1 "University of California, Los Angeles")
 		(comment 2 "Bruin SuperMileage Vehicle")
@@ -10291,7 +10291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nextgen-components/0805B225K500CC/18677030"
 			(at 121.92 45.72 0)
 			(effects
 				(font
@@ -10791,7 +10791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nextgen-components/0805W106K500CC/18677029"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -13784,7 +13784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nextgen-components/0805B224K101CC/18668218"
 			(at 104.14 45.72 0)
 			(effects
 				(font
@@ -14641,7 +14641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nextgen-components/0805W106K500CC/18677029"
 			(at 381 38.1 0)
 			(effects
 				(font
@@ -15189,7 +15189,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_RXD" input
+		(pin "CAN_RXD" output
 			(at 335.28 127 0)
 			(uuid "9cd0b794-f7e3-452b-95b7-d93504b8b740")
 			(effects
@@ -15199,7 +15199,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_TXD" input
+		(pin "CAN_TXD" output
 			(at 335.28 133.35 0)
 			(uuid "5a14ec3e-e7bf-44a8-8455-c126ef7d633b")
 			(effects
