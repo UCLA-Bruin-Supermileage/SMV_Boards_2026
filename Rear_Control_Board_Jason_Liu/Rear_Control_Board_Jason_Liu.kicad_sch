@@ -3907,7 +3907,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
+			(property "Reference" "J11"
 				(at 25.4 10.16 0)
 				(effects
 					(font
@@ -3923,7 +3923,7 @@
 					)
 				)
 			)
-			(property "Footprint" "M22-7130442_TYC"
+			(property "Footprint" "SMV_Connectors:M22-7130442_TYC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4027,17 +4027,19 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "M22-7130442_1_1"
 				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
-					(name "A1"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4048,14 +4050,14 @@
 				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "A2"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4066,14 +4068,14 @@
 				(pin unspecified line
 					(at 50.8 0 180)
 					(length 7.62)
-					(name "A4"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4084,14 +4086,14 @@
 				(pin unspecified line
 					(at 50.8 -2.54 180)
 					(length 7.62)
-					(name "A3"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A3"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7994,6 +7996,12 @@
 		(uuid "810b7a96-7fff-49d8-a51a-cce2418a34ac")
 	)
 	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8160f1de-70e1-42f7-85a0-d7b22a52888d")
+	)
+	(junction
 		(at 328.93 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8022,6 +8030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93459f46-5882-469f-9877-d3c3aac11c7c")
+	)
+	(junction
+		(at 165.1 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e37f02-861a-499a-848b-14456db6ad67")
 	)
 	(junction
 		(at 265.43 72.39)
@@ -8082,6 +8096,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b577ef9d-4b5e-490d-aeec-3b452a59c208")
+	)
+	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b993c9ff-83ac-4686-9547-e7fa7abbfe88")
 	)
 	(junction
 		(at 46.99 143.51)
@@ -8883,6 +8903,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f193d2-5324-4c61-a0fc-583fba0de213")
+	)
+	(wire
+		(pts
 			(xy 39.37 41.91) (xy 39.37 46.99)
 		)
 		(stroke
@@ -9083,6 +9113,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c30766-9458-4e60-9a7e-98cb546f731b")
+	)
+	(wire
+		(pts
 			(xy 295.91 72.39) (xy 309.88 72.39)
 		)
 		(stroke
@@ -9173,7 +9213,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 166.37 106.68)
+			(xy 160.02 106.68) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9463,7 +9503,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 166.37 111.76)
+			(xy 165.1 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78471cad-58aa-4947-8447-b43ab7a928ea")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10393,7 +10443,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 166.37 116.84)
+			(xy 160.02 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -12760,16 +12810,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A1"
+		(pin "4"
 			(uuid "7359e7fd-cb52-4dda-8439-d884a1df2557")
 		)
-		(pin "A2"
+		(pin "2"
 			(uuid "8a9b95df-3381-4a81-9ffd-853693bd474c")
 		)
-		(pin "A3"
+		(pin "1"
 			(uuid "8fde8141-1b0e-4baf-87d6-cbc7c006825a")
 		)
-		(pin "A4"
+		(pin "3"
 			(uuid "6702c0ae-8d6d-4132-a542-c6e970b613da")
 		)
 		(instances
@@ -13889,7 +13939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 111.76 270)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13897,7 +13947,7 @@
 		(dnp no)
 		(uuid "32b9b628-b031-4c26-878a-1e057968b0e9")
 		(property "Reference" "TP21"
-			(at 185.674 109.982 90)
+			(at 163.322 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +13956,7 @@
 			)
 		)
 		(property "Value" "MISO"
-			(at 185.42 113.284 90)
+			(at 166.624 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +13965,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 184.15 116.84 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +13974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 116.84 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13933,7 +13983,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19232,7 +19282,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 106.68 270)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19241,7 +19291,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcdfad5-b432-4ea0-a0a6-77343fd5b31d")
 		(property "Reference" "TP22"
-			(at 189.23 105.4099 90)
+			(at 167.64 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19250,7 +19300,7 @@
 			)
 		)
 		(property "Value" "MOSI"
-			(at 189.23 107.9499 90)
+			(at 167.64 104.6479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19259,7 +19309,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 184.15 111.76 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19268,7 +19318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 111.76 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19277,7 +19327,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20064,7 +20114,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 116.84 270)
+		(at 165.1 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20072,7 +20122,7 @@
 		(dnp no)
 		(uuid "bbf1ae48-c53a-473c-a247-1745982ed471")
 		(property "Reference" "TP20"
-			(at 185.42 115.57 90)
+			(at 166.37 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20081,7 +20131,7 @@
 			)
 		)
 		(property "Value" "SCLK"
-			(at 184.912 119.126 90)
+			(at 162.814 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20090,7 +20140,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 184.15 121.92 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20099,7 +20149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 121.92 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20108,7 +20158,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
