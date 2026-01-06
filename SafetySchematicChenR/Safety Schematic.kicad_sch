@@ -9331,16 +9331,6 @@
 		)
 		(uuid "fdd6ee95-f81f-4c9f-a653-33b0b7d0c3c1")
 	)
-	(label "SPLIT"
-		(at 158.75 196.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10790a25-2e70-4eef-b8f1-9add4e1d9eeb")
-	)
 	(label "EXTESTOP"
 		(at 81.28 128.27 90)
 		(effects
@@ -12905,6 +12895,73 @@
 			(project "Safety Schematic"
 				(path "/927e5849-97d5-445f-9a77-6290d281bda7"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731cf49c-d290-4590-b4cb-f99e43154184")
+		(property "Reference" "#PWR054"
+			(at 162.56 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66090972-e9b7-4b4b-a133-91589aeaa9d0")
+		)
+		(instances
+			(project ""
+				(path "/927e5849-97d5-445f-9a77-6290d281bda7"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
