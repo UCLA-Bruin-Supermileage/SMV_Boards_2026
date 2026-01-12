@@ -5713,7 +5713,7 @@
 		)
 		(uuid "911c2087-4dfd-4186-98ee-4a7d55ccd12a")
 	)
-	(text "48Vto5V DCDC Converter"
+	(text "48V to 5V DCDC Converter"
 		(exclude_from_sim no)
 		(at 257.048 40.64 0)
 		(effects
@@ -6228,16 +6228,16 @@
 		(uuid "dd725bd4-ad4a-4123-b709-d32c223c38f5")
 	)
 	(junction
-		(at 386.08 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dea37626-7d9a-4206-8def-7cf7f14e0b6a")
-	)
-	(junction
 		(at 403.86 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e22202-cb9c-403b-9f39-f094aedcdbfb")
+	)
+	(junction
+		(at 386.08 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb005784-a962-4819-a73f-e67741e83d06")
 	)
 	(junction
 		(at 190.5 311.15)
@@ -6340,10 +6340,6 @@
 		(uuid "6a5e20a2-544c-4915-b8b8-ecbcf1757c1b")
 	)
 	(no_connect
-		(at 416.56 209.55)
-		(uuid "6f79a532-63ef-41fa-8f02-04f71689832b")
-	)
-	(no_connect
 		(at 257.81 76.2)
 		(uuid "70b416be-a3b0-488a-96ab-4d9d7c8fc466")
 	)
@@ -6442,6 +6438,10 @@
 	(no_connect
 		(at 416.56 219.71)
 		(uuid "e8f49e37-ae28-44a9-8413-93da4408f5b4")
+	)
+	(no_connect
+		(at 416.56 212.09)
+		(uuid "efd60fc7-4115-4a9c-af5d-3ed35a2b72b1")
 	)
 	(no_connect
 		(at 416.56 194.31)
@@ -6615,7 +6615,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 212.09) (xy 369.57 212.09)
+			(xy 386.08 209.55) (xy 369.57 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8175,7 +8175,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 205.74) (xy 369.57 212.09)
+			(xy 369.57 205.74) (xy 369.57 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8595,7 +8595,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 212.09) (xy 386.08 212.09)
+			(xy 416.56 209.55) (xy 386.08 209.55)
 		)
 		(stroke
 			(width 0)
@@ -15170,7 +15170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_ICs:PDIP8_300MC_MCH"
+		(property "Footprint" "SMV_ICs:MCP2562-E_SN_SOIC8-N_MC_MCH-M"
 			(at 344.17 302.26 0)
 			(effects
 				(font
@@ -17732,7 +17732,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 386.08 212.09 180)
+		(at 386.08 209.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17741,7 +17741,7 @@
 		(fields_autoplaced yes)
 		(uuid "b285be64-6217-447e-9d73-080375198475")
 		(property "Reference" "TP43"
-			(at 388.62 214.1219 0)
+			(at 388.62 211.5819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17750,7 +17750,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 388.62 216.6619 0)
+			(at 388.62 214.1219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +17759,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 381 212.09 0)
+			(at 381 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17768,7 +17768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 212.09 0)
+			(at 381 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17777,7 +17777,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 386.08 212.09 0)
+			(at 386.08 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
