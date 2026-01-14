@@ -7288,6 +7288,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 68.58) (xy 22.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161e9ef4-03a7-440b-8c4f-364a4c0405af")
+	)
+	(wire
+		(pts
 			(xy 34.29 24.13) (xy 35.56 24.13)
 		)
 		(stroke
@@ -7385,6 +7395,16 @@
 			(type default)
 		)
 		(uuid "1f267984-2351-4367-a018-b54f5491272d")
+	)
+	(wire
+		(pts
+			(xy 13.97 68.58) (xy 13.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217a71e2-dbb6-4707-964c-9e99c1aca245")
 	)
 	(wire
 		(pts
@@ -7658,6 +7678,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 77.47) (xy 22.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a130e7-18e5-4c06-a5b0-a0464ba0f1d4")
+	)
+	(wire
+		(pts
 			(xy 162.56 35.56) (xy 166.37 35.56)
 		)
 		(stroke
@@ -7778,7 +7808,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 55.88) (xy 35.56 55.88)
+			(xy 34.29 55.88) (xy 35.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7875,6 +7905,16 @@
 			(type default)
 		)
 		(uuid "7dcfefcc-b6a0-4528-b134-afa8775e5904")
+	)
+	(wire
+		(pts
+			(xy 13.97 81.28) (xy 27.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e08fb02-a6e5-44ad-a9f5-d01896e26d90")
 	)
 	(wire
 		(pts
@@ -8055,6 +8095,16 @@
 			(type default)
 		)
 		(uuid "9cb3b1eb-11c7-4af3-b42b-5f627453ebf5")
+	)
+	(wire
+		(pts
+			(xy 13.97 77.47) (xy 13.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7d7cfa-cf4c-440f-a1c0-1f57568862c6")
 	)
 	(wire
 		(pts
@@ -8578,6 +8628,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 78.74) (xy 27.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d68c3c-4117-46f0-87ba-d408391a56fc")
+	)
+	(wire
+		(pts
 			(xy 210.82 67.31) (xy 217.17 67.31)
 		)
 		(stroke
@@ -8724,22 +8784,22 @@
 	)
 	(global_label "hydrogen_out"
 		(shape input)
-		(at 27.94 81.28 180)
+		(at 13.97 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2084ee70-a0e8-44ba-a7a7-00a441eaedfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.3761 81.28 0)
+			(at 13.97 53.0161 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8966,22 +9026,22 @@
 	)
 	(global_label "hydrogen_ref"
 		(shape input)
-		(at 27.94 78.74 180)
+		(at 22.86 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c85daafd-6e2a-45c0-babb-aabe83b3e5dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.7993 78.74 0)
+			(at 22.86 53.4393 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9777,6 +9837,75 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 13.97 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28f71c5d-b1b4-4e88-8ae3-43614a063ca2")
+		(property "Reference" "R6"
+			(at 15.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 15.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 14.986 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 13.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc38878-e744-4b20-8308-873f56b8afc2")
+		)
+		(pin "2"
+			(uuid "17a708b7-e3fd-457e-b8d0-33e915e692d8")
+		)
+		(instances
+			(project ""
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10873,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 30.48 55.88 90)
+		(at 34.29 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10753,7 +10882,7 @@
 		(fields_autoplaced yes)
 		(uuid "50b33efe-e738-4e8c-8366-b23de57b3ffe")
 		(property "Reference" "#PWR09"
-			(at 34.29 55.88 0)
+			(at 38.1 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,7 +10891,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 26.67 55.8799 90)
+			(at 30.48 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +10900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 55.88 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 55.88 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,7 +10918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 30.48 55.88 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,6 +15428,75 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 22.86 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc9db7c2-a3ce-4253-be60-1f8b953796b3")
+		(property "Reference" "R7"
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 24.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.876 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 22.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5401abed-a7cd-472f-9c62-417ed4aafb49")
+		)
+		(pin "2"
+			(uuid "fecc507a-5077-4ad3-93fc-99abd28e80ac")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "R7")
 					(unit 1)
 				)
 			)
