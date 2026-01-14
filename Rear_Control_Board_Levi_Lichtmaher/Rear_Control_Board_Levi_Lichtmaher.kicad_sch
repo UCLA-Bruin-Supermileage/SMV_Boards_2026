@@ -7664,6 +7664,10 @@
 		(uuid "3a98bc10-bb4e-4686-ad40-df3246b72fe4")
 	)
 	(no_connect
+		(at 340.36 111.76)
+		(uuid "422217a4-055a-4356-9bca-fa3577c110cf")
+	)
+	(no_connect
 		(at 285.75 167.64)
 		(uuid "43b3fdb6-4d91-4467-b2ba-3180216fa3fa")
 	)
@@ -8329,6 +8333,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 44.45) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2539272e-9ea4-4c8e-99b8-4631540d109b")
+	)
+	(wire
+		(pts
 			(xy 378.46 118.11) (xy 378.46 109.22)
 		)
 		(stroke
@@ -8929,6 +8943,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 44.45) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609ffc42-5201-4163-81ff-c8a11da92c0c")
+	)
+	(wire
+		(pts
 			(xy 187.96 90.17) (xy 193.04 90.17)
 		)
 		(stroke
@@ -9029,6 +9053,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 29.21) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674898e9-294c-4633-b33d-5ceb5ba09a3d")
+	)
+	(wire
+		(pts
 			(xy 105.41 208.28) (xy 101.6 208.28)
 		)
 		(stroke
@@ -9096,6 +9130,16 @@
 			(type default)
 		)
 		(uuid "6dd0e944-d937-4978-8f8e-0783434181c5")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 34.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e50c60e-a421-43f3-b880-c5c900f5c2ea")
 	)
 	(wire
 		(pts
@@ -10469,6 +10513,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 29.21) (xy 40.64 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d658dccb-a87f-4389-8e0f-0a6d37649f8d")
+	)
+	(wire
+		(pts
 			(xy 212.09 134.62) (xy 232.41 134.62)
 		)
 		(stroke
@@ -10976,6 +11030,16 @@
 			(type default)
 		)
 		(uuid "fc45ce5d-1eca-46b5-8f42-718c458e2d29")
+	)
+	(wire
+		(pts
+			(xy 62.23 44.45) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6d55cf-3186-4007-b2d6-d4cf7045610e")
 	)
 	(wire
 		(pts
@@ -13504,7 +13568,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 48.26 29.21 270)
+		(at 49.53 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13513,7 +13577,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ef08436-b8d8-4a50-a78b-7b6da3b4d51e")
 		(property "Reference" "#PWR082"
-			(at 44.45 29.21 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,16 +13586,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 52.07 29.2099 90)
+			(at 49.53 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 29.21 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +13603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 29.21 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,7 +13612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 29.21 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15660,7 +15723,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 44.45 0)
+		(at 46.99 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15669,7 +15732,7 @@
 		(fields_autoplaced yes)
 		(uuid "410b290b-f99a-4603-8171-64f3ec176c6d")
 		(property "Reference" "TP9"
-			(at 60.96 39.8779 0)
+			(at 44.45 50.2921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +15741,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 60.96 42.4179 0)
+			(at 44.45 47.7521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15687,7 +15750,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 63.5 44.45 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 44.45 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15768,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 58.42 44.45 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16596,7 +16659,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 44.45 180)
+		(at 46.99 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16605,7 +16668,7 @@
 		(fields_autoplaced yes)
 		(uuid "48ab66e1-9310-478b-a470-90b41cbdbd05")
 		(property "Reference" "#PWR078"
-			(at 58.42 40.64 0)
+			(at 46.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16614,7 +16677,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 58.42 49.53 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +16685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 44.45 0)
+			(at 46.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16631,7 +16694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 44.45 0)
+			(at 46.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16640,7 +16703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 44.45 0)
+			(at 46.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16879,7 +16942,7 @@
 			)
 		)
 		(property "Value" "NC"
-			(at 193.04 83.82 90)
+			(at 187.96 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18648,7 +18711,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 44.45 0)
+		(at 62.23 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18657,7 +18720,7 @@
 		(fields_autoplaced yes)
 		(uuid "757c0ad8-06fe-40ff-b5dd-b832c03d9c98")
 		(property "Reference" "TP7"
-			(at 45.72 39.8779 0)
+			(at 59.69 50.2921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18666,7 +18729,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 45.72 42.4179 0)
+			(at 59.69 47.7521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18675,7 +18738,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 48.26 44.45 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18684,7 +18747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 44.45 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,7 +18756,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 44.45 0)
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20236,10 +20299,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8efb208a-0116-465c-9ae3-51c07a688626")
 		(property "Reference" "TP19"
-			(at 200.66 82.0419 0)
+			(at 209.804 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20248,7 +20310,7 @@
 			)
 		)
 		(property "Value" "CS2"
-			(at 200.66 84.5819 0)
+			(at 209.804 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20997,7 +21059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 44.45 0)
+		(at 34.29 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21006,7 +21068,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a577b85-9ec5-419c-bb70-1501a79eaa1e")
 		(property "Reference" "#PWR081"
-			(at 34.29 50.8 0)
+			(at 34.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21015,7 +21077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 49.53 0)
+			(at 34.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21023,7 +21085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 44.45 0)
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21032,7 +21094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 44.45 0)
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21041,7 +21103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 44.45 0)
+			(at 34.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21543,7 +21605,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 44.45 180)
+		(at 62.23 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21552,7 +21614,7 @@
 		(fields_autoplaced yes)
 		(uuid "a93f10a4-b2da-464f-b822-3b833e509ff2")
 		(property "Reference" "#PWR080"
-			(at 43.18 40.64 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21561,7 +21623,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 43.18 49.53 0)
+			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21569,7 +21631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 44.45 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21578,7 +21640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 44.45 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21587,7 +21649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 44.45 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22978,7 +23040,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf341a1e-7370-4bc9-b801-f2c85852d33a")
 		(property "Reference" "TP17"
 			(at 187.96 86.3599 90)
@@ -23039,7 +23100,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 49.53 44.45 0)
+		(at 55.88 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23048,7 +23109,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf5ef694-1af2-41f2-9628-42f47ce57344")
 		(property "Reference" "TP10"
-			(at 52.07 39.8779 0)
+			(at 53.34 50.2921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23057,7 +23118,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 52.07 42.4179 0)
+			(at 53.34 47.7521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23066,7 +23127,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 54.61 44.45 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23075,7 +23136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 44.45 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23084,7 +23145,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 49.53 44.45 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23172,7 +23233,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.64 29.21 90)
+		(at 39.37 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23181,7 +23242,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0feccd0-8a28-4147-aa68-60c88d29c7a7")
 		(property "Reference" "#PWR092"
-			(at 44.45 29.21 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23190,16 +23251,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 36.83 29.2099 90)
+			(at 39.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 29.21 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23208,7 +23268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 29.21 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23217,7 +23277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 29.21 0)
+			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25764,7 +25824,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 49.53 44.45 180)
+		(at 55.88 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25773,7 +25833,7 @@
 		(fields_autoplaced yes)
 		(uuid "efd6e2a7-24ad-466a-b2aa-26340f6a5a7f")
 		(property "Reference" "#PWR079"
-			(at 49.53 40.64 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25782,7 +25842,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 49.53 49.53 0)
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25790,7 +25850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 44.45 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25799,7 +25859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 44.45 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25808,7 +25868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 49.53 44.45 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
