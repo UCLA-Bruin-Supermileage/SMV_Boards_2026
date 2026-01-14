@@ -9765,16 +9765,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 133.35) (xy 326.39 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66fe5aec-b05a-40a3-9c04-bddf7577d9f5")
-	)
-	(wire
-		(pts
 			(xy 113.03 172.72) (xy 118.11 172.72)
 		)
 		(stroke
@@ -9982,6 +9972,16 @@
 			(type default)
 		)
 		(uuid "7cbe68e0-a15f-4cd4-b05b-3eb633e73c40")
+	)
+	(wire
+		(pts
+			(xy 326.39 133.35) (xy 326.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8b26e0-3f93-44b6-9839-f21bd58fbf0b")
 	)
 	(wire
 		(pts
@@ -17319,6 +17319,94 @@
 		)
 	)
 	(symbol
+		(lib_id "SMV_Custom:MCP2562-E_P")
+		(at 265.43 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a3f752-9d57-46f9-941c-72161711d259")
+		(property "Reference" "U4"
+			(at 295.91 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP2562-E/P"
+			(at 295.91 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MCP2562-E/MF:SOIC127P600X175-8N"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MCP2562-E/P"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5149b8d-3917-47f8-9525-e114f74e9aca")
+		)
+		(pin "3"
+			(uuid "a16d6fea-def8-4e36-904c-92e6bfc2499f")
+		)
+		(pin "6"
+			(uuid "e9f72b24-beae-4f2f-a170-fbc1a6cd0047")
+		)
+		(pin "8"
+			(uuid "2d8a979e-0091-4e70-9da3-18ceb510b325")
+		)
+		(pin "4"
+			(uuid "50aa49d5-2bfc-4898-836a-4cd8adf9d561")
+		)
+		(pin "5"
+			(uuid "cc21ef8a-5cd1-41c8-8f11-981409b62401")
+		)
+		(pin "7"
+			(uuid "3c4a719b-f517-44b5-954e-913ef8dad1fd")
+		)
+		(pin "1"
+			(uuid "3acc3d50-ad0b-4394-ae6f-51fce2ebcde9")
+		)
+		(instances
+			(project ""
+				(path "/866fd9fd-9057-4f06-b5ac-cc23ee87995f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 38.1 180)
 		(unit 1)
@@ -22425,94 +22513,6 @@
 			(project ""
 				(path "/866fd9fd-9057-4f06-b5ac-cc23ee87995f"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMV_Custom:MCP2562-E_P")
-		(at 265.43 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0172a03-9971-4263-bc05-d6bb63658906")
-		(property "Reference" "U4"
-			(at 295.91 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MCP2562-E/P"
-			(at 295.91 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SMV_ICs:PDIP8_300MC_MCH"
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MCP2562-E/P"
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b932895-c037-4aaf-8e96-b9d515a99d69")
-		)
-		(pin "5"
-			(uuid "95c81fd9-0748-4884-b501-058de0af4f79")
-		)
-		(pin "6"
-			(uuid "44d90f68-ff0d-472e-96e9-d7dab853b7ac")
-		)
-		(pin "2"
-			(uuid "f0df1101-b401-4c7c-98e4-a787ae1629da")
-		)
-		(pin "4"
-			(uuid "2f9e9ca0-8fd7-4953-bbd9-d3d16b33b7cd")
-		)
-		(pin "8"
-			(uuid "eb8884d1-fb91-49d2-a3c6-a241066bfd99")
-		)
-		(pin "7"
-			(uuid "0bead4af-f7cc-4e06-94b5-380b4871928c")
-		)
-		(pin "1"
-			(uuid "33fb7e83-988a-42ac-a57e-120021d78397")
-		)
-		(instances
-			(project ""
-				(path "/866fd9fd-9057-4f06-b5ac-cc23ee87995f"
-					(reference "U4")
 					(unit 1)
 				)
 			)
