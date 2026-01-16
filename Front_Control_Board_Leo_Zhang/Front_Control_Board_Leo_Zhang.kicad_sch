@@ -1020,14 +1020,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumpers:M22-7130442"
+		(symbol "M22-7130442_1"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
+			(property "Reference" "J15"
 				(at 25.4 10.16 0)
 				(effects
 					(font
@@ -1043,7 +1043,7 @@
 					)
 				)
 			)
-			(property "Footprint" "M22-7130442_TYC"
+			(property "Footprint" "SMV_Connectors:M22-7130442_TYC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1098,7 +1098,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "M22-7130442_0_1"
+			(symbol "M22-7130442_1_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -7.62)
@@ -1147,6 +1147,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "M22-7130442_1_1_1"
 				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
@@ -1157,7 +1159,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1175,7 +1177,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1193,7 +1195,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1211,7 +1213,7 @@
 							)
 						)
 					)
-					(number "A3"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5908,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 190.5) (xy 177.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07452cda-d8d5-4384-80b8-084ff6808d76")
+	)
+	(wire
+		(pts
 			(xy 35.56 107.95) (xy 38.1 107.95)
 		)
 		(stroke
@@ -6468,16 +6480,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 180.34) (xy 172.72 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3877b1fc-0bb9-429f-8bc0-064ed2dd20b6")
-	)
-	(wire
-		(pts
 			(xy 35.56 20.32) (xy 43.18 20.32)
 		)
 		(stroke
@@ -6758,7 +6760,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 177.8) (xy 120.65 177.8)
+			(xy 125.73 190.5) (xy 127 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7228,16 +7230,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 177.8) (xy 172.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ff85f5-c712-44dc-bcfa-66f462ce3407")
-	)
-	(wire
-		(pts
 			(xy 247.65 147.32) (xy 247.65 148.59)
 		)
 		(stroke
@@ -7485,6 +7477,16 @@
 			(type default)
 		)
 		(uuid "8e562aa1-3ab7-4659-9555-bfd27a81c26f")
+	)
+	(wire
+		(pts
+			(xy 124.46 176.53) (xy 127 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4bc29d-3410-4683-900e-2ad2b4505277")
 	)
 	(wire
 		(pts
@@ -8028,16 +8030,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 180.34) (xy 120.65 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd39714c-ca4a-4466-9ccb-54b1d55c364c")
-	)
-	(wire
-		(pts
 			(xy 154.94 30.48) (xy 161.29 30.48)
 		)
 		(stroke
@@ -8045,6 +8037,16 @@
 			(type default)
 		)
 		(uuid "be96c537-21a3-4d4f-a315-07a850e8317a")
+	)
+	(wire
+		(pts
+			(xy 180.34 176.53) (xy 177.8 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00e9830-c251-4c0c-8c10-69a8faf1a06f")
 	)
 	(wire
 		(pts
@@ -8776,15 +8778,15 @@
 		)
 		(uuid "03c88f4d-eeec-4536-a56b-53b039ae8976")
 	)
-	(label "CAN_RX"
-		(at 119.38 177.8 180)
+	(label "CAN_RX/Jump"
+		(at 125.73 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "08badbde-3f41-46d9-875b-57d36652746e")
+		(uuid "0465e8e1-5a7f-469c-bd65-f755a669ac76")
 	)
 	(label "Brake(Hall)/VFout"
 		(at 35.56 171.45 180)
@@ -8936,16 +8938,6 @@
 		)
 		(uuid "5986d499-7cb1-417d-8c7a-7f8be229b22a")
 	)
-	(label "CAN_TX/Jump"
-		(at 119.38 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59edacdc-9be9-473d-b18f-a6c0c9b86a71")
-	)
 	(label "CANL"
 		(at 111.76 45.72 0)
 		(effects
@@ -8995,6 +8987,16 @@
 			(justify left top)
 		)
 		(uuid "6c137b44-7df1-4a94-b0c0-e35a036bff40")
+	)
+	(label "CAN_TX/Jump"
+		(at 181.61 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ce12187-0c16-42ab-9786-1ffeb6259fd1")
 	)
 	(label "Accelerator(Hall)/VFin"
 		(at 109.22 187.96 0)
@@ -9065,6 +9067,16 @@
 			(justify left bottom)
 		)
 		(uuid "91d9f453-ff49-4419-8a7b-ef3d758615e8")
+	)
+	(label "CAN_RX"
+		(at 180.34 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93dd29d9-30f2-4c62-9721-c9a5efe36128")
 	)
 	(label "Pressure/VFout"
 		(at 35.56 148.59 180)
@@ -9206,16 +9218,6 @@
 		)
 		(uuid "e2e55acb-a051-4321-b20a-ac542a2bcee9")
 	)
-	(label "CAN_RX"
-		(at 172.72 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3ff2a7e-1f0a-4915-8f32-81e422d6b932")
-	)
 	(label "SPI1_MOSI"
 		(at 153.67 69.85 180)
 		(effects
@@ -9227,12 +9229,12 @@
 		(uuid "e92b7015-12bb-439c-a9c7-2c7cd9730abd")
 	)
 	(label "CAN_TX"
-		(at 172.72 180.34 0)
+		(at 124.46 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eef33739-58cc-45d2-aa2a-04fb0522a3ed")
 	)
@@ -10087,82 +10089,6 @@
 			(project "Front_Control_Board_Leo_Zhang"
 				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumpers:M22-7130442")
-		(at 120.65 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e3faf16-5b51-4163-b6a6-a9b6c97c2afe")
-		(property "Reference" "J14"
-			(at 146.05 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "M22-7130442"
-			(at 146.05 170.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Jumperz:M22-7130442_TYC"
-			(at 120.65 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "M22-7130442"
-			(at 120.65 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A4"
-			(uuid "ae6510de-85f6-4228-940e-c34f839ebd25")
-		)
-		(pin "A1"
-			(uuid "fc3b3e28-ec44-49ea-8c1c-651adebdc053")
-		)
-		(pin "A3"
-			(uuid "547ba1e8-7246-4952-b86f-575b8b9c4bd2")
-		)
-		(pin "A2"
-			(uuid "3126e50a-f8ab-4dfb-ad0e-71e18f716d9c")
-		)
-		(instances
-			(project ""
-				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -11679,7 +11605,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2b1c7ebf-ea2d-40b1-af64-193125a9286e")
 		(property "Reference" "D3"
@@ -15485,6 +15411,83 @@
 		)
 	)
 	(symbol
+		(lib_name "M22-7130442_1")
+		(lib_id "Jumpers:M22-7130442")
+		(at 127 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c05673-1447-463d-849c-67fce4f507e2")
+		(property "Reference" "J15"
+			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "M22-7130442"
+			(at 152.4 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:M22-7130442_TYC"
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "M22-7130442"
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9e2ca1f-8091-4110-8b01-35e762211614")
+		)
+		(pin "2"
+			(uuid "1b5d0a27-6923-4279-bc04-a970a84ee14b")
+		)
+		(pin "4"
+			(uuid "14b97de2-1797-4c5a-b7f5-f53e3c0fc935")
+		)
+		(pin "3"
+			(uuid "e4be7828-5795-4169-8ee5-702893ba5259")
+		)
+		(instances
+			(project "Front_Control_Board_Leo_Zhang"
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 132.08 76.2 270)
 		(unit 1)
@@ -17877,6 +17880,83 @@
 		)
 	)
 	(symbol
+		(lib_name "M22-7130442_1")
+		(lib_id "Jumpers:M22-7130442")
+		(at 127 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c082d34a-8519-485a-83c8-f0c6b49e585f")
+		(property "Reference" "J14"
+			(at 152.4 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "M22-7130442"
+			(at 152.4 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Connectors:M22-7130442_TYC"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "M22-7130442"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc5ad10-1933-4dd6-be7d-d827eda23bc1")
+		)
+		(pin "2"
+			(uuid "6dcef33a-7b4b-4ccc-96c3-8a473ee4d075")
+		)
+		(pin "4"
+			(uuid "42903c7d-5421-4f33-923e-c7793dde3951")
+		)
+		(pin "3"
+			(uuid "bd39d7da-2c63-4e68-b53d-5e19e25f5f3d")
+		)
+		(instances
+			(project "Front_Control_Board_Leo_Zhang"
+				(path "/6cf0360e-3cdf-4914-8b69-0ef1e4431a93"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:PSMN5R2-60YL")
 		(at 269.24 46.99 0)
 		(unit 1)
@@ -19140,7 +19220,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d595f8da-5e18-45b2-a4d2-3fe79dcaeb83")
 		(property "Reference" "D2"
