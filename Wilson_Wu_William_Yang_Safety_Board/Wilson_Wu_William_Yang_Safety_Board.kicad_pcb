@@ -2320,7 +2320,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3c5c3132-16a1-41ed-abc8-cc92763dd7bf")
-		(at -74.54 81.773101)
+		(at 35.5875 43.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_3"
@@ -3172,7 +3172,7 @@
 	(footprint "SMV_Connectors:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "49191c72-6c3b-4f12-b174-84841640f0ca")
-		(at -60.3815 44.633101)
+		(at 58 32)
 		(property "Reference" "J3"
 			(at -4.825 -5.935 0)
 			(layer "F.SilkS")
@@ -5083,7 +5083,7 @@
 			(uuid "d28428cd-fbf7-4a40-998c-fa75387a7648")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 37.86 -30.01 0)
+			(at 4.934 -31.068699 0)
 			(layer "F.Fab")
 			(uuid "6c017dc6-902c-4db5-a6ab-159cd73847f9")
 			(effects
@@ -7616,7 +7616,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "d7cecc26-0b39-406b-b381-f963e3a5fc94")
+			(uuid "3ff9b0fa-14c8-42f1-80c2-dfd181ea9f09")
 			(effects
 				(font
 					(size 1 1)
@@ -7627,7 +7627,7 @@
 		(property "Value" "10uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "3239ac9f-51ce-4488-960b-fcd9da102b7e")
+			(uuid "9496ea41-a41a-4630-838d-96742e8615b1")
 			(effects
 				(font
 					(size 1 1)
@@ -7639,7 +7639,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fedd135a-74b8-4d84-a5ec-ff45f0ef2255")
+			(uuid "eb1552b4-bedf-4b3d-911f-0c62b1395ce5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7651,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e4d7ab8-93ee-432a-b888-1622e883b36b")
+			(uuid "eb64d587-b90b-43fa-a3e2-41ed2c61c34a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9263,7 @@
 			(remove_unused_layers no)
 			(net 93 "unconnected-(U4-K-Pad13)")
 			(pinfunction "K")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "1a513ed5-7b0b-4d70-9397-33622dba6557")
 		)
 		(pad "14" thru_hole circle
@@ -11905,7 +11905,7 @@
 	(footprint "SMV_Connectors:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "ba1548e5-f5f7-4d62-9f40-57f7572557c3")
-		(at -60.3815 34.983101)
+		(at 36 32)
 		(property "Reference" "J2"
 			(at -4.825 -5.935 0)
 			(layer "F.SilkS")
@@ -12361,7 +12361,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c306d526-1054-486e-8a05-75ada7616115")
-		(at -83.36 78.823101)
+		(at 58.5875 43.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -14091,7 +14091,7 @@
 	(footprint "SMV_Connectors:3pin_CON_22035035_MOL"
 		(layer "F.Cu")
 		(uuid "f330a943-e768-41f1-8de2-e6c01990f4d1")
-		(at -61.16152 86.311603)
+		(at -58.75401 89.350002)
 		(tags "22035035 ")
 		(property "Reference" "J1"
 			(at -2.49999 -6.35 0)
@@ -14680,30 +14680,6 @@
 		(uuid "303d51b6-97d9-44cd-93ca-4c785a111b2d")
 	)
 	(segment
-		(start 238.5 33.45)
-		(end 245.725001 33.45)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0bdced30-460c-476a-a7ef-510eebed565d")
-	)
-	(segment
-		(start 245.725001 33.45)
-		(end 247.56 35.284999)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "ecdcfeda-3fb4-408c-859b-b7e831a680a0")
-	)
-	(segment
-		(start 246.725001 31.55)
-		(end 247.56 30.715001)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6f69c2f5-4fe0-402c-855d-e41f39fbde07")
-	)
-	(segment
 		(start 252.5 31.5)
 		(end 254 33)
 		(width 0.5)
@@ -14718,46 +14694,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "3c5fbb8a-78d1-4fee-ac10-a7d2ef969c07")
-	)
-	(segment
-		(start 128.5 76.5)
-		(end 138.25 76.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "7ef39a23-311e-4897-b4c8-54f63ac48b88")
-	)
-	(segment
-		(start 252.5 23.5)
-		(end 252.5 31.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "8d1417f4-9862-4d0d-a94f-25514bdb1031")
-	)
-	(segment
-		(start 149.500001 88.25)
-		(end 149.500001 93.099999)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "d328e063-b9fd-4f6f-8ccf-8aa5a6d00186")
-	)
-	(segment
-		(start 135.450001 76.999999)
-		(end 138.25 76.999999)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "079597fe-b69d-43be-a754-ee7e807578cb")
-	)
-	(segment
-		(start 133.45 79)
-		(end 135.450001 76.999999)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a0ffb705-08be-451b-8bac-095f7cbdac38")
 	)
 	(embedded_fonts no)
 )
