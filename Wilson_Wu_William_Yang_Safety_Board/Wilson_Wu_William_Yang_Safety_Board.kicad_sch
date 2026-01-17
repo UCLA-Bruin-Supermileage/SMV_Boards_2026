@@ -6797,6 +6797,12 @@
 		(uuid "c00e6204-3693-4845-a9c0-a300ae8e5202")
 	)
 	(junction
+		(at 31.75 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36bca6b-7ab6-49a0-8da8-80156a47a7ce")
+	)
+	(junction
 		(at 177.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7290,6 +7296,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 161.29) (xy 31.75 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1444ce-2037-4dc6-875c-2e7423aa6e87")
+	)
+	(wire
+		(pts
 			(xy 31.75 33.02) (xy 45.72 33.02)
 		)
 		(stroke
@@ -7360,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 163.83) (xy 36.83 163.83)
+			(xy 26.67 163.83) (xy 31.75 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8700,6 +8716,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 163.83) (xy 36.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f7bcb2-2848-4ba2-a426-fdf1feb590af")
+	)
+	(wire
+		(pts
 			(xy 270.51 50.8) (xy 256.54 50.8)
 		)
 		(stroke
@@ -8910,6 +8936,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 152.4) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7e28e1-8e09-4f14-9b70-0b4715c4ade9")
+	)
+	(wire
+		(pts
 			(xy 30.48 133.35) (xy 30.48 134.62)
 		)
 		(stroke
@@ -8942,7 +8978,7 @@
 	)
 	(global_label "ignition signal"
 		(shape input)
-		(at 31.75 163.83 180)
+		(at 26.67 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8952,7 +8988,7 @@
 		)
 		(uuid "053374ea-b133-43a3-9d77-05dff64245d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.916 163.83 0)
+			(at 9.836 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16312,7 +16348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73XW_Horizontal"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -16495,6 +16531,72 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 31.75 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f1663e-4f38-4ece-ae5e-2760a3652764")
+		(property "Reference" "#PWR046"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V0"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba38aa3a-df2f-491a-8fe9-b95dec3bd9c8")
+		)
+		(instances
+			(project ""
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16768,6 +16870,76 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff884aec-b06e-4053-9b13-2420f5308ab0")
+		(property "Reference" "R11"
+			(at 34.29 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 30.734 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2422ff74-9c6c-4df8-88b2-6630d0c7422d")
+		)
+		(pin "1"
+			(uuid "e25cfcf4-c36f-489d-a2d8-ed882007fb71")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "R11")
 					(unit 1)
 				)
 			)
