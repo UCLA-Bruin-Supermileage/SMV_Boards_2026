@@ -6821,12 +6821,6 @@
 		(uuid "c8168a92-bbaf-4390-aca9-7c943c067fa5")
 	)
 	(junction
-		(at 241.3 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7a5cc1d-289d-4052-8f81-ee12d20b6862")
-	)
-	(junction
 		(at 15.24 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7433,16 +7427,6 @@
 			(type default)
 		)
 		(uuid "2b64e1a0-1d58-4e9a-b679-9828a48667c0")
-	)
-	(wire
-		(pts
-			(xy 241.3 68.58) (xy 241.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e19c244-5f34-48c2-a108-8809f7b10f2e")
 	)
 	(wire
 		(pts
@@ -16180,15 +16164,15 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 177.8 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea7f1b25-9ecd-44c4-8569-76b2cefcd834")
 		(property "Reference" "D1"
-			(at 174.9424 64.77 90)
+			(at 180.6576 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16181,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 177.4824 64.77 90)
+			(at 178.1176 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
