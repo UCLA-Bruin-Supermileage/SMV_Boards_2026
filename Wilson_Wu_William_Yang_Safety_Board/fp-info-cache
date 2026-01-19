@@ -1,11 +1,25 @@
-26863381346171269
-AZ1117IH-3.3TRG1
-SOT230P700X185-4N
+26919783237575256
+4-pin-can-connector
+M22-7130442_TYC
 
-
+M22-7130442 
 0
 4
 4
+10uF-ceramic-capacitor
+CAPC2012X135N
+
+
+0
+2
+2
+22uF-ceramic-capacitor
+CAPC1608X105N
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,13 +34,6 @@ audio belton reverb
 0
 7
 7
-B2B-PH-K-S
-JST_B2B-PH-K-S
-
-
-0
-2
-2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2827,6 +2834,13 @@ speaker CUI
 0
 2
 2
+CD4002BE
+N14
+
+CD4002BE 
+0
+14
+14
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62467,20 +62481,13 @@ GDT 3R-6
 0
 3
 3
-GRM21BR61C106KE15L
-CAPC2012X135N
+HC-SR04
+XCVR_HC-SR04
 
 
 0
-2
-2
-GRM155R71C103KA01D
-CAPC1005X55N
-
-
-0
-2
-2
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -70608,6 +70615,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP2562_E_P_UPDATED
+DIP787W45P254L1016H533Q8
+
+
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -86758,6 +86772,20 @@ HVSSOP SO
 18
 9
 Package_SO
+HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm
+HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HVSSOP SO
+0
+15
+11
+Package_SO
+HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias
+HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HVSSOP SO
+0
+20
+11
+Package_SO
 HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm
 HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 HVSSOP SO JEDEC-MO-187_BA-T Texas_DGQ0010D
@@ -97342,6 +97370,13 @@ CONV_TSR_0.5-2450
 3
 3
 SMV_ICs
+DBV0005A_L
+
+SN74LVC1G08DBVR 
+0
+5
+5
+SMV_ICs
 DCY4_TEX
 
 UA78M05QDCYRG4Q1 
@@ -97412,7 +97447,28 @@ BD70GA3MEFJ-ME2
 9
 9
 SMV_ICs
+LFPAK56_SOT669_NEX
+
+PSMN1R8-40YLC_115 
+0
+5
+5
+SMV_ICs
+LGA-14L_2P5X3X0P83_STM
+
+ASM330LHHTR 
+0
+14
+14
+SMV_ICs
 MODULE_NUCLEO-F446RE
+
+
+0
+108
+108
+SMV_ICs
+MODULE_NUCLEO-F446RE_NEW
 
 
 0
@@ -97510,6 +97566,13 @@ REF2033QDDCRQ1
 5
 5
 SMV_ICs
+SOT65P210X110-5N
+
+
+0
+5
+5
+SMV_ICs
 SOT95P280X145-6N
 SOT-23 - 1.45 mm max height
 Integrated Circuit
@@ -97521,8 +97584,8 @@ Seven_Seg_display
 
 
 0
-0
-0
+12
+12
 SMV_ICs
 TSSOP20_PW_TEX
 
@@ -97586,6 +97649,34 @@ TPS74501PBQWDRVRQ1
 0
 7
 7
+SMV_Logo
+SEM_logo
+
+
+0
+0
+0
+SMV_Misc
+SW_A8L-11_OMR
+
+A8L-11-12N1 
+0
+2
+2
+SMV_Misc
+TAISS 3 Pin Switch
+
+
+0
+3
+3
+SMV_Misc
+Twidec Button
+
+
+0
+2
+2
 SMV_Passives
 0603_resistors
 
@@ -97705,6 +97796,13 @@ Capacitor
 0
 2
 2
+SMV_Passives
+J115F11AH12VDCS615U
+J115F11AH12VDCS61.5U-3
+Relay or Contactor
+0
+4
+4
 SMV_Passives
 RESC1608X55N
 
@@ -99953,6 +100051,34 @@ Logo WEEE
 0
 0
 TerminalBlock
+TerminalBlock_Altech_AK300-2_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+2
+2
+TerminalBlock
+TerminalBlock_Altech_AK300-3_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+3
+3
+TerminalBlock
+TerminalBlock_Altech_AK300-4_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+4
+4
+TerminalBlock
+TerminalBlock_Degson_DG246-3.81-03P
+DEGSON ELECTRONICS DG246 terminal block, https://www.degson.com/index.php?a=downloadFile&id=1090277
+connector terminal block
+0
+6
+3
+TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
 THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm
@@ -100114,6 +100240,13 @@ THT terminal block MaiXu MX126-5.0-24P pitch 5mm size 120x7.8mm drill 1.3mm pad 
 24
 24
 TerminalBlock
+TerminalBlock_Wuerth_691311400102_P7.62mm
+https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
+Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
+0
+2
+2
+TerminalBlock
 TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal
 Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya
 THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm
@@ -100267,6 +100400,48 @@ THT Terminal Block Xinya XY308-2.54-23P pitch 2.54mm size 58.9x6.5mm drill 1.2mm
 0
 23
 23
+TerminalBlock
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+TerminalBlock
+TerminalBlock_bornier-3_P5.08mm
+simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
+terminal block bornier3
+0
+3
+3
+TerminalBlock
+TerminalBlock_bornier-4_P5.08mm
+simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
+terminal block bornier4
+0
+4
+4
+TerminalBlock
+TerminalBlock_bornier-5_P5.08mm
+simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5
+terminal block bornier5
+0
+5
+5
+TerminalBlock
+TerminalBlock_bornier-6_P5.08mm
+simple 6pin terminal block, pitch 5.08mm, revamped version of bornier6
+terminal block bornier6
+0
+6
+6
+TerminalBlock
+TerminalBlock_bornier-8_P5.08mm
+simple 8pin terminal block, pitch 5.08mm, revamped version of bornier8
+terminal block bornier8
+0
+8
+8
 TerminalBlock_4Ucon
 TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal
 Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon
@@ -106938,3 +107113,52 @@ Varistor VF
 0
 2
 2
+hbridge
+SOIC127P1032X265-20N
+
+
+0
+20
+20
+lmv33_comparator
+DBV5
+
+LMV331IDBVR 
+0
+5
+5
+lmv33_comparator
+DBV5-L
+
+LMV331IDBVR 
+0
+5
+5
+lmv33_comparator
+DBV5-M
+
+LMV331IDBVR 
+0
+5
+5
+stm32nucleoflr
+LQFP100-14x14mm
+
+STM32F405VGT6TR 
+0
+100
+100
+ul_LM1117IDTX-3-3-NOPB
+NDP0003B
+
+LM1117IDTX-3.3/NOPB 
+0
+3
+3
+voltage regulator
+SOT230P700X185-4N
+
+
+0
+4
+4
