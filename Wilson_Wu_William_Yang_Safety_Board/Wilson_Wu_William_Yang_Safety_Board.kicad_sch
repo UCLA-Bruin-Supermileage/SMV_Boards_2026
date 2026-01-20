@@ -7662,12 +7662,6 @@
 		(uuid "ee94df37-ce6c-4641-93d6-de90db1f4465")
 	)
 	(junction
-		(at 31.75 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efdd776b-557b-4a0d-91da-8b8440853198")
-	)
-	(junction
 		(at 101.6 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8078,16 +8072,6 @@
 			(type default)
 		)
 		(uuid "161e9ef4-03a7-440b-8c4f-364a4c0405af")
-	)
-	(wire
-		(pts
-			(xy 30.48 22.86) (xy 31.75 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17772920-c682-41f8-ad56-abd94fce4b25")
 	)
 	(wire
 		(pts
@@ -15652,7 +15636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Test:TRIM_PV36W101C01B00"
 			(at 58.42 30.48 0)
 			(effects
 				(font
