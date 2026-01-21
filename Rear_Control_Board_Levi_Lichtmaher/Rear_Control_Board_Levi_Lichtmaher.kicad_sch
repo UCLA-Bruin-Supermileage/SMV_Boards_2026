@@ -514,189 +514,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7933,16 +7750,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 106.68 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07037cda-feb1-4c4e-9bec-a86ebee093a5")
-	)
-	(wire
-		(pts
 			(xy 325.12 39.37) (xy 342.9 39.37)
 		)
 		(stroke
@@ -8070,6 +7877,16 @@
 			(type default)
 		)
 		(uuid "0f000c89-bb3f-4375-9443-13f263c4c00b")
+	)
+	(wire
+		(pts
+			(xy 106.68 41.91) (xy 106.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2597d6-0315-4a94-9fd6-d8fe65baa2c2")
 	)
 	(wire
 		(pts
@@ -8203,7 +8020,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 149.86) (xy 213.36 149.86)
+			(xy 196.85 149.86) (xy 199.39 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8943,6 +8760,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 41.91) (xy 85.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607d9280-bb35-4cc5-82c9-236007375695")
+	)
+	(wire
+		(pts
 			(xy 55.88 44.45) (xy 55.88 45.72)
 		)
 		(stroke
@@ -9120,16 +8947,6 @@
 			(type default)
 		)
 		(uuid "6d08199f-d463-4f6f-b569-fe463a7017a7")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 96.52 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd0e944-d937-4978-8f8e-0783434181c5")
 	)
 	(wire
 		(pts
@@ -9403,16 +9220,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86cf8c23-fef4-4f7f-97d2-3e59ef56f43a")
-	)
-	(wire
-		(pts
 			(xy 370.84 151.13) (xy 370.84 161.29)
 		)
 		(stroke
@@ -9603,6 +9410,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 54.61) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ab3ff7-c302-4c33-a6bb-2b93dee07aea")
+	)
+	(wire
+		(pts
 			(xy 67.31 123.19) (xy 74.93 123.19)
 		)
 		(stroke
@@ -9760,6 +9577,16 @@
 			(type default)
 		)
 		(uuid "9e139fdc-2348-4038-80c6-0f8d0c3c97c9")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea3b5f3-c825-4b4e-a9e3-f25e77d52036")
 	)
 	(wire
 		(pts
@@ -10033,7 +9860,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 85.09 52.07)
+			(xy 85.09 54.61) (xy 85.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10123,6 +9950,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 41.91) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b374c227-a1bb-472e-9d25-bb5bc5f1047e")
+	)
+	(wire
+		(pts
 			(xy 328.93 109.22) (xy 328.93 111.76)
 		)
 		(stroke
@@ -10150,16 +9987,6 @@
 			(type default)
 		)
 		(uuid "b4ddd465-b31c-4d3b-b846-6841bbdd38d1")
-	)
-	(wire
-		(pts
-			(xy 85.09 41.91) (xy 85.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53c6fa8-877f-45dc-b6d0-701856f7e112")
 	)
 	(wire
 		(pts
@@ -10270,16 +10097,6 @@
 			(type default)
 		)
 		(uuid "bdbbbd37-6de0-4aef-b419-1bbfbed03132")
-	)
-	(wire
-		(pts
-			(xy 229.87 149.86) (xy 232.41 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea8da75-8278-4bcb-91c2-76b5a215a0d4")
 	)
 	(wire
 		(pts
@@ -10483,7 +10300,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 149.86) (xy 222.25 149.86)
+			(xy 207.01 149.86) (xy 213.36 149.86)
 		)
 		(stroke
 			(width 0)
@@ -11003,16 +10820,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 106.68 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb73ec7a-58bb-40a9-9c25-f29b36f9b778")
-	)
-	(wire
-		(pts
 			(xy 292.1 210.82) (xy 297.18 210.82)
 		)
 		(stroke
@@ -11080,6 +10887,16 @@
 			(type default)
 		)
 		(uuid "fe527adc-aec4-4b27-991c-bb1caef351ad")
+	)
+	(wire
+		(pts
+			(xy 223.52 149.86) (xy 232.41 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff56d9e2-2ed2-47e5-a25b-9448b9b57722")
 	)
 	(wire
 		(pts
@@ -11723,7 +11540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 52.07 0)
+		(at 85.09 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11732,7 +11549,7 @@
 		(fields_autoplaced yes)
 		(uuid "043d2912-fb33-498b-8fc2-f5060a6c3656")
 		(property "Reference" "#PWR068"
-			(at 85.09 58.42 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 57.15 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 52.07 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +11575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 52.07 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 52.07 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13765,85 +13582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 85.09 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2654016a-ff94-4c6e-8d9b-6aee22bb1ee8")
-		(property "Reference" "D2"
-			(at 88.9 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 88.9 49.8474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8a690dd-5038-444c-a0a5-dec204cfc614")
-		)
-		(pin "1"
-			(uuid "392c50d9-0b4b-4500-bcdc-59c236904466")
-		)
-		(instances
-			(project "Rear_Control_Board_Levi_Lichtmaher"
-				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 306.07 99.06 0)
 		(unit 1)
@@ -13904,6 +13642,78 @@
 			(project ""
 				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Green LED:LTST-C170GKT")
+		(at 85.09 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2976f03e-757b-4619-b147-26964d3a9d79")
+		(property "Reference" "LED5"
+			(at 91.44 49.5299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170GKT"
+			(at 91.44 52.0699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:LED_LTST-C170GKT_LTO"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTST-C170GKT"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a096236c-daba-423e-bb4b-446681796677")
+		)
+		(pin "1"
+			(uuid "9d8f5eb7-c799-436b-a1e7-e4b19d9dc6d7")
+		)
+		(instances
+			(project "Rear_Control_Board_Levi_Lichtmaher"
+				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -14252,85 +14062,6 @@
 			(project ""
 				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 106.68 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e80fdfa-2574-4076-9d69-e4bb8c1fc902")
-		(property "Reference" "D4"
-			(at 110.49 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 110.49 49.8474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1663e8e8-6859-4845-98c8-f754397bed02")
-		)
-		(pin "1"
-			(uuid "e4a48d2d-6cd4-4260-9658-ad86073995a3")
-		)
-		(instances
-			(project "Rear_Control_Board_Levi_Lichtmaher"
-				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14952,6 +14683,78 @@
 			(project ""
 				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Green LED:LTST-C170GKT")
+		(at 106.68 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a5aba7d-94cf-472c-8b2c-42de7a641e83")
+		(property "Reference" "LED7"
+			(at 113.03 49.5299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170GKT"
+			(at 113.03 52.0699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:LED_LTST-C170GKT_LTO"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTST-C170GKT"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a14840e-9a84-43e3-af8a-df9732bbc137")
+		)
+		(pin "1"
+			(uuid "8e5ea9a5-f16a-4310-bbca-65f1cc9de84f")
+		)
+		(instances
+			(project "Rear_Control_Board_Levi_Lichtmaher"
+				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -15988,7 +15791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 149.86 90)
+		(at 203.2 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15997,7 +15800,7 @@
 		(fields_autoplaced yes)
 		(uuid "420563ef-2231-47f0-9407-99a9e05bc67b")
 		(property "Reference" "R21"
-			(at 217.17 143.51 90)
+			(at 203.2 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16005,7 +15808,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 217.17 146.05 90)
+			(at 203.2 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16013,7 +15816,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.17 151.638 90)
+			(at 203.2 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,7 +15825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 149.86 0)
+			(at 203.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +15834,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 149.86 0)
+			(at 203.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17259,7 +17062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 52.07 0)
+		(at 96.52 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17268,7 +17071,7 @@
 		(fields_autoplaced yes)
 		(uuid "5383aab8-1095-44eb-9df5-db40aa6e6b33")
 		(property "Reference" "#PWR071"
-			(at 96.52 58.42 0)
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17277,7 +17080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 57.15 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +17088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 52.07 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17294,7 +17097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 52.07 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17303,7 +17106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 52.07 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17743,7 +17546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 52.07 0)
+		(at 106.68 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17752,7 +17555,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e074c29-cbd5-4bcb-8b57-c54c5664ee88")
 		(property "Reference" "#PWR073"
-			(at 106.68 58.42 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17761,7 +17564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 57.15 0)
+			(at 106.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,7 +17572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 52.07 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +17581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 52.07 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +17590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 52.07 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18226,83 +18029,6 @@
 			(project ""
 				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 226.06 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cb347a7-f0cb-4448-b740-76642860dc81")
-		(property "Reference" "D1"
-			(at 224.4725 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 224.4725 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7f7d4fc-7c39-47b6-a840-065c84f6bcc9")
-		)
-		(pin "1"
-			(uuid "7dffbea4-49ba-4804-9627-a590a225b9d1")
-		)
-		(instances
-			(project ""
-				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19716,6 +19442,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Green LED:LTST-C170GKT")
+		(at 96.52 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c4141c-71b3-464c-8157-b0caf3b43a52")
+		(property "Reference" "LED6"
+			(at 102.87 49.5299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170GKT"
+			(at 102.87 52.0699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:LED_LTST-C170GKT_LTO"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTST-C170GKT"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77ec3bcb-0f57-4f53-bf77-e2bf81a44e5d")
+		)
+		(pin "1"
+			(uuid "925b498a-ca96-4993-87fb-e81628d0096c")
+		)
+		(instances
+			(project "Rear_Control_Board_Levi_Lichtmaher"
+				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 135.89 39.37 0)
 		(mirror y)
@@ -20908,85 +20706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 96.52 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99e44b9c-363f-4d85-ad17-be652587c8bd")
-		(property "Reference" "D3"
-			(at 100.33 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 100.33 49.8474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMV_Passives:WL-SMCW_0603(diode)"
-			(at 96.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 96.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a92d6a7-67bb-44ba-a2d3-cd20e2dff51e")
-		)
-		(pin "1"
-			(uuid "5eff5033-1662-421b-a110-716e97efd1cc")
-		)
-		(instances
-			(project "Rear_Control_Board_Levi_Lichtmaher"
-				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 231.14 0)
 		(mirror y)
@@ -21198,6 +20917,76 @@
 			(project ""
 				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Green LED:LTST-C170GKT")
+		(at 223.52 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0a3814-8fb9-49a7-9156-88c002ed02db")
+		(property "Reference" "LED8"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTST-C170GKT"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Personal:LED_LTST-C170GKT_LTO"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTST-C170GKT"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee2490c7-d61e-4351-928b-5c635b3eebef")
+		)
+		(pin "1"
+			(uuid "6ad0a1a3-27c6-4d25-ae6b-9a6d9d153546")
+		)
+		(instances
+			(project "Rear_Control_Board_Levi_Lichtmaher"
+				(path "/04c1ffb8-0232-4390-a852-cf9026a840a3"
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -26511,7 +26300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 149.86 0)
+		(at 196.85 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26520,7 +26309,7 @@
 		(fields_autoplaced yes)
 		(uuid "faaab1e2-3581-49cd-af4a-44d7f83c0399")
 		(property "Reference" "#PWR013"
-			(at 210.82 156.21 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26529,7 +26318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26537,7 +26326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 149.86 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26546,7 +26335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 149.86 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26555,7 +26344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 149.86 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
