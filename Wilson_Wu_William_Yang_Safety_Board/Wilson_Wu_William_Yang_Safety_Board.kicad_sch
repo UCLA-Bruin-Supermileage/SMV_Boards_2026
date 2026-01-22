@@ -7646,6 +7646,12 @@
 		(uuid "dbd386a7-6069-4d9c-be6b-7060602a203e")
 	)
 	(junction
+		(at 104.14 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7f283c-9d22-4eff-9f98-ac3f152d7dd8")
+	)
+	(junction
 		(at 196.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7994,6 +8000,16 @@
 			(type default)
 		)
 		(uuid "024dd5f6-e999-4ccd-9e47-a83619fef96f")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02913da5-5427-46b8-bc9d-055acb6e1ad6")
 	)
 	(wire
 		(pts
@@ -9187,7 +9203,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 106.68 38.1)
+			(xy 101.6 38.1) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -19595,6 +19611,73 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbffb13a-1932-497e-b215-e1a1e3ed891b")
+		(property "Reference" "TP1"
+			(at 106.68 40.1319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 42.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8676e9e-340b-4cdd-a5ad-1112c93add4c")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
