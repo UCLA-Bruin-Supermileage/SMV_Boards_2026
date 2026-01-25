@@ -7729,12 +7729,6 @@
 		(color 0 0 0 0)
 		(uuid "fb386ec3-581f-41ea-9a98-b2849536155e")
 	)
-	(junction
-		(at 101.6 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff7c75be-cb9b-41ed-9d64-d231c65d17c0")
-	)
 	(no_connect
 		(at 162.56 30.48)
 		(uuid "063e1e9f-d428-4d1e-b595-96f4f7691f2e")
@@ -9183,7 +9177,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 160.02) (xy 101.6 151.13)
+			(xy 101.6 151.13) (xy 101.6 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9350,16 +9344,6 @@
 			(type default)
 		)
 		(uuid "9910ecfe-36b9-48f0-9444-a7a08e57200a")
-	)
-	(wire
-		(pts
-			(xy 101.6 167.64) (xy 101.6 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a80b8c1-e74b-4cb9-b8a4-603e9198d04c")
 	)
 	(wire
 		(pts
@@ -15325,71 +15309,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "710c0327-d616-4a08-a03d-4e7b5d5d5ae2")
-		(property "Reference" "TP16"
-			(at 98.298 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 98.298 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 101.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7a0c273-f4d4-4f86-9002-2ac83cefe058")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
