@@ -7490,12 +7490,6 @@
 		(uuid "75b16a34-322e-4332-b32c-1b6461c77f15")
 	)
 	(junction
-		(at 88.9 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76102466-1b27-475a-988e-b623b06c0a5d")
-	)
-	(junction
 		(at 88.9 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7542,12 +7536,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "985fc74e-b776-41fa-a950-f08e2564f7b5")
-	)
-	(junction
-		(at 88.9 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d27064d-6cf1-4142-be33-e4a7117c529c")
 	)
 	(junction
 		(at 252.73 67.31)
@@ -8527,16 +8515,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 134.62) (xy 88.9 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c2a9ea-1b8d-4b28-aa51-3348f5c3ad79")
-	)
-	(wire
-		(pts
 			(xy 124.46 114.3) (xy 124.46 123.19)
 		)
 		(stroke
@@ -8867,6 +8845,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6207dc29-6eb6-4039-bcb9-7b8f166d651f")
+	)
+	(wire
+		(pts
 			(xy 74.93 33.02) (xy 71.12 33.02)
 		)
 		(stroke
@@ -8874,16 +8862,6 @@
 			(type default)
 		)
 		(uuid "63c74a86-88d8-41a9-a564-120ef9e28813")
-	)
-	(wire
-		(pts
-			(xy 210.82 142.24) (xy 260.35 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64322b8b-435f-4f86-bb19-d9fa9690cec9")
 	)
 	(wire
 		(pts
@@ -9577,16 +9555,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 88.9 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badc6e84-e823-473f-9d29-6f15aa90de55")
-	)
-	(wire
-		(pts
 			(xy 33.02 97.79) (xy 33.02 96.52)
 		)
 		(stroke
@@ -10087,7 +10055,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 88.9 121.92)
+			(xy 88.9 111.76) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10177,7 +10145,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 128.27) (xy 88.9 134.62)
+			(xy 88.9 128.27) (xy 88.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10357,7 +10325,29 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN-"
+		(shape input)
+		(at 260.35 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d31787-b2ef-4053-8208-ea991d5de8e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.1033 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
 		(shape input)
 		(at 214.63 139.7 0)
 		(fields_autoplaced yes)
@@ -10369,7 +10359,7 @@
 		)
 		(uuid "288cbb74-9f31-4b62-adc0-50b56c60be91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.6024 139.7 0)
+			(at 222.8767 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,6 +10453,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN-"
+		(shape input)
+		(at 214.63 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62a49706-825e-429b-8f2a-6a322ea8f37f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.8767 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10797,7 +10809,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN+"
 		(shape input)
 		(at 260.35 156.21 270)
 		(fields_autoplaced yes)
@@ -10809,7 +10821,7 @@
 		)
 		(uuid "e21846b6-a3a0-4ede-b1e2-fe161de81a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.35 165.1824 90)
+			(at 260.35 164.4567 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16634,71 +16646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a636c7e0-a2d6-40ff-94f1-b75f39cec40b")
-		(property "Reference" "TP20"
-			(at 85.598 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 85.598 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 88.9 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b018bcf-df56-4563-8095-8972fe6ad799")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 34.29 0)
 		(unit 1)
@@ -17221,71 +17168,6 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b721a4f2-5161-45b4-93ba-cb1f23e4dbcb")
-		(property "Reference" "TP21"
-			(at 85.598 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 85.598 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 88.9 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af17cb0d-867f-4d82-9ae2-3694c7cc2a15")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -18642,7 +18524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP2562_E_P_UPDATED:DIP787W45P254L1016H533Q8"
+		(property "Footprint" "footprints:SOIC8-N_MC_MCH"
 			(at 193.04 137.16 0)
 			(effects
 				(font
