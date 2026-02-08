@@ -778,6 +778,14 @@
 		(uuid "73a9845a-e868-4538-97ce-531c12a7485d")
 	)
 	(no_connect
+		(at 99.06 48.26)
+		(uuid "d3c50ffe-d3b8-46bc-9296-ffe6e3820da7")
+	)
+	(no_connect
+		(at 99.06 45.72)
+		(uuid "ea1a9e80-b5d0-4c68-90a2-9f0ae156d311")
+	)
+	(no_connect
 		(at 43.18 40.64)
 		(uuid "eeb6bb07-1c02-44a1-8e26-93e10bbf3386")
 	)
@@ -800,26 +808,6 @@
 			(type default)
 		)
 		(uuid "0cc1dcea-cc44-4ee5-a5ef-47d0390ba712")
-	)
-	(wire
-		(pts
-			(xy 99.06 45.72) (xy 115.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b1aa92-7d0b-48b9-94bc-d93a3915b41f")
-	)
-	(wire
-		(pts
-			(xy 99.06 48.26) (xy 100.33 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3aaef1-ab12-420d-9606-a3609cae7c4a")
 	)
 	(wire
 		(pts
@@ -981,7 +969,7 @@
 		)
 		(uuid "5eae50c5-8f36-4a3b-b25b-bec9a4ca13b9")
 	)
-	(label "INVERT_1"
+	(label "INVERT_2"
 		(at 100.33 43.18 0)
 		(effects
 			(font
@@ -990,16 +978,6 @@
 			(justify left bottom)
 		)
 		(uuid "908f5e9e-487e-4942-b8da-4e583e044c47")
-	)
-	(label "INVERT_1"
-		(at 100.33 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d56c32aa-3eba-4ae9-817f-877fe3031315")
 	)
 	(global_label "h_sensor_1"
 		(shape input)
@@ -1014,28 +992,6 @@
 		(uuid "17953339-35be-4e2a-aedc-4c8f642bfcbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.0779 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "h_sensor_3"
-		(shape input)
-		(at 115.57 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1af9dd20-53b3-4088-b867-e4528542eee5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0779 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.3648 22.86 0)
 			(effects
 				(font
