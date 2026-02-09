@@ -5540,7 +5540,7 @@
 		(uuid "36153177-9d2b-4731-b8e8-abb880010d7a")
 	)
 	(junction
-		(at 269.24 152.4)
+		(at 270.51 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5037621d-fcba-48dc-b8b8-7b3cb7669b10")
@@ -5618,7 +5618,7 @@
 		(uuid "90522df4-9e82-4798-af05-e3300e382e07")
 	)
 	(junction
-		(at 266.7 140.97)
+		(at 267.97 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94a3f446-4252-4da8-b90f-f700d8289a47")
@@ -6565,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 154.94) (xy 269.24 152.4)
+			(xy 270.51 134.62) (xy 270.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6765,7 +6765,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 140.97) (xy 266.7 140.97)
+			(xy 266.7 120.65) (xy 267.97 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6925,7 +6925,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 140.97) (xy 269.24 140.97)
+			(xy 267.97 120.65) (xy 270.51 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7305,7 +7305,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 269.24 146.05)
+			(xy 270.51 132.08) (xy 270.51 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7335,7 +7335,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 143.51) (xy 269.24 143.51)
+			(xy 262.89 123.19) (xy 270.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7519,7 +7519,7 @@
 	)
 	(global_label "CAN-"
 		(shape input)
-		(at 265.43 140.97 180)
+		(at 266.7 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7529,7 +7529,7 @@
 		)
 		(uuid "20d31787-b2ef-4053-8208-ea991d5de8e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.1833 140.97 0)
+			(at 258.4533 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7871,7 @@
 	)
 	(global_label "CAN+"
 		(shape input)
-		(at 269.24 154.94 270)
+		(at 270.51 134.62 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7881,7 +7881,7 @@
 		)
 		(uuid "e21846b6-a3a0-4ede-b1e2-fe161de81a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 163.1867 90)
+			(at 270.51 142.8667 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +10474,7 @@
 	)
 	(symbol
 		(lib_id "SMV_Custom:3-pin Mini Molex Spox")
-		(at 269.24 140.97 0)
+		(at 270.51 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10483,7 +10483,7 @@
 		(fields_autoplaced yes)
 		(uuid "69a2756c-6cb9-4f36-ae9b-8a2720275383")
 		(property "Reference" "J1"
-			(at 275.5899 137.16 90)
+			(at 276.8599 116.84 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10492,7 +10492,7 @@
 			)
 		)
 		(property "Value" "22035035"
-			(at 278.1299 137.16 90)
+			(at 279.3999 116.84 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10501,7 +10501,7 @@
 			)
 		)
 		(property "Footprint" "SMV_Connectors:3pin_CON_22035035_MOL"
-			(at 280.6699 137.16 90)
+			(at 281.9399 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +10511,7 @@
 			)
 		)
 		(property "Datasheet" "3-pin Mini Molex Spox"
-			(at 269.24 130.81 0)
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 140.97 0)
+			(at 270.51 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10615,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 266.7 140.97 0)
+		(at 267.97 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10623,7 +10623,7 @@
 		(dnp no)
 		(uuid "6f3aba7e-ed14-470c-b966-22cbab2282ac")
 		(property "Reference" "TP33"
-			(at 264.414 133.604 0)
+			(at 265.684 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10632,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.382 135.636 0)
+			(at 263.652 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10641,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 271.78 140.97 0)
+			(at 273.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 140.97 0)
+			(at 273.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10659,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 266.7 140.97 0)
+			(at 267.97 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11688,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 143.51 270)
+		(at 262.89 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11697,7 +11697,7 @@
 		(fields_autoplaced yes)
 		(uuid "a931e88f-d73c-4728-88e9-542f58814653")
 		(property "Reference" "#PWR05"
-			(at 255.27 143.51 0)
+			(at 256.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 143.5101 90)
+			(at 259.08 123.1901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 143.51 0)
+			(at 262.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 143.51 0)
+			(at 262.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 143.51 0)
+			(at 262.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,7 +11755,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 152.4 90)
+		(at 270.51 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11763,7 +11763,7 @@
 		(dnp no)
 		(uuid "a9e22a2c-07a4-43ea-ac86-609aace6f14e")
 		(property "Reference" "TP32"
-			(at 261.874 154.686 0)
+			(at 263.144 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +11772,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 263.906 156.718 0)
+			(at 265.176 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +11781,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 147.32 0)
+			(at 270.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +11790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 147.32 0)
+			(at 270.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11799,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 152.4 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +12998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOIC8-N_MC_MCH"
+		(property "Footprint" "MCP2562_E_P_UPDATED:DIP787W45P254L1016H533Q8"
 			(at 195.58 123.19 0)
 			(effects
 				(font
