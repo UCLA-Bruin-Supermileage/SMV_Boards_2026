@@ -841,6 +841,12 @@
 		(color 0 0 0 0)
 		(uuid "b84061e7-bef9-4b20-8034-bc2eeee61f18")
 	)
+	(junction
+		(at 36.83 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daee1717-a0d8-4d45-9b6e-fe97b32f0003")
+	)
 	(wire
 		(pts
 			(xy 91.44 68.58) (xy 90.17 68.58)
@@ -900,6 +906,16 @@
 			(type default)
 		)
 		(uuid "1f343dab-4c44-4159-acfd-32de718a81e0")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252b9d43-5362-4042-bb1b-d709cb582cfc")
 	)
 	(wire
 		(pts
@@ -963,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 36.83 44.45)
+			(xy 36.83 27.94) (xy 36.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -1485,7 +1501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 35.56 67.31 0)
 			(effects
 				(font
@@ -1823,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 97.79 35.56 0)
 			(effects
 				(font
@@ -2133,6 +2149,71 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/b2ba9052-388b-4c74-b799-940f541ae929"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f65d768c-c637-4f5e-802a-cfae91371243")
+		(property "Reference" "TP27"
+			(at 33.528 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 33.528 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaefb4a1-f58d-4898-b507-c5c684d11ec4")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/b2ba9052-388b-4c74-b799-940f541ae929"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
