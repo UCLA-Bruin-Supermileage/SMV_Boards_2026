@@ -1,0 +1,429 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "79f7f3b1-bb1a-4298-9353-465778b5e188")
+	(paper "A4")
+	(lib_symbols
+		(symbol "J115F11AH12VDCS61.5U_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.508 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J115F11AH12VDCS61.5U_1_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 0 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J115F11AH12VDCS61.5U_1_1_1"
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "COIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "COIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_name "J115F11AH12VDCS61.5U_1")
+		(lib_id "SMV_Custom:J115F11AH12VDCS61.5U")
+		(at 111.76 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c5fbc4c-59cc-4928-913f-3b156241a1d7")
+		(property "Reference" "U12"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J115F11AH12VDCS61.5U"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:J115F11AH12VDCS615U"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cf7bce3-2d47-4596-9d4b-8be77c2c7f75")
+		)
+		(pin "1"
+			(uuid "3e9b814e-620b-40df-83e7-581806a72296")
+		)
+		(pin "3"
+			(uuid "8fe86606-2b3c-434c-aca9-a8d6a75f6aae")
+		)
+		(pin "4"
+			(uuid "51a16f13-3557-447d-82ed-bab4130044d1")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "J115F11AH12VDCS61.5U_1")
+		(lib_id "SMV_Custom:J115F11AH12VDCS61.5U")
+		(at 111.76 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8be75969-ffb6-4136-83a2-055d78cbdb4e")
+		(property "Reference" "U5"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J115F11AH12VDCS61.5U"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:J115F11AH12VDCS615U"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94347a44-35de-4564-ba7b-58f2d0d67654")
+		)
+		(pin "1"
+			(uuid "14e32ab6-04aa-431f-a2be-15bd07fb5efe")
+		)
+		(pin "3"
+			(uuid "f9009ab6-1a6f-4966-94be-7934b30c47ee")
+		)
+		(pin "4"
+			(uuid "c3ae1cb2-e867-4aba-9a35-d0be9cc548aa")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "J115F11AH12VDCS61.5U_1")
+		(lib_id "SMV_Custom:J115F11AH12VDCS61.5U")
+		(at 111.76 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9b7206f-a9ba-4d6a-b48d-8ae00f82489d")
+		(property "Reference" "U10"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J115F11AH12VDCS61.5U"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMV_Passives:J115F11AH12VDCS615U"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "385f7dba-e26b-4f5f-9efa-df6240456582")
+		)
+		(pin "1"
+			(uuid "894a970b-6742-42f8-bf59-2176c3fe9779")
+		)
+		(pin "3"
+			(uuid "144e24bd-de6b-45c8-baa6-c877737a4cb5")
+		)
+		(pin "4"
+			(uuid "190f987b-07df-4328-8cee-4fff2cf1b51b")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

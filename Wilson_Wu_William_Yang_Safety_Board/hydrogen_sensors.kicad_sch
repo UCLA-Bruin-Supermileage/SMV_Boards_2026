@@ -1459,10 +1459,6 @@
 		(uuid "c955ebe8-6612-4a16-b9e5-3e3b3d6a3bd0")
 	)
 	(no_connect
-		(at 101.6 80.01)
-		(uuid "0d48c83c-77d7-430a-8d87-e052aaa565d1")
-	)
-	(no_connect
 		(at 134.62 44.45)
 		(uuid "e854e63d-7725-42ed-a272-6bd8a39109f6")
 	)
@@ -1828,6 +1824,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d782c2-b561-4942-95e1-f857bc2ac22f")
+	)
+	(wire
+		(pts
 			(xy 86.36 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -2083,7 +2089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 109.22 74.9299 90)
 			(effects
 				(font
@@ -2887,7 +2893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/50020/rssd.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
 			(at 86.36 41.91 0)
 			(effects
 				(font
@@ -3013,6 +3019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
@@ -3252,6 +3259,73 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21ca60c-b647-48f3-89ab-37928e142a19")
+		(property "Reference" "#PWR042"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffba9ad4-67ab-49a0-8bd7-27b417028ba2")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
