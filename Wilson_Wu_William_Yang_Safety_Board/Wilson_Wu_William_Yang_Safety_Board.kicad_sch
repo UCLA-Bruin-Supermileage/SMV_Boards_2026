@@ -7517,7 +7517,7 @@
 			)
 		)
 	)
-	(global_label "CAN-"
+	(global_label "CAN+"
 		(shape input)
 		(at 266.7 120.65 180)
 		(fields_autoplaced yes)
@@ -7825,6 +7825,28 @@
 			)
 		)
 	)
+	(global_label "h_sensor_1"
+		(shape input)
+		(at 204.47 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adfd9930-bb56-4e61-8c9b-dfbb72f44578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.9779 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Control_C"
 		(shape input)
 		(at 31.75 186.69 180)
@@ -7847,29 +7869,7 @@
 			)
 		)
 	)
-	(global_label "ina_output"
-		(shape input)
-		(at 204.47 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc4867d5-edb0-4ee0-9a26-7ef59ccfefa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.373 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN+"
+	(global_label "CAN-"
 		(shape input)
 		(at 270.51 134.62 270)
 		(fields_autoplaced yes)
@@ -10052,7 +10052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_ICs:TSSOP14_PW_TEX-M"
+		(property "Footprint" "AND_GATE:TSSOP14_PW_TEX-M"
 			(at 135.89 36.83 0)
 			(effects
 				(font
