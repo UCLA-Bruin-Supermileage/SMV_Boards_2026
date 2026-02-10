@@ -1924,12 +1924,6 @@
 		(uuid "5305fe13-0ff9-4a4b-8c36-ca7486f74d72")
 	)
 	(junction
-		(at 125.73 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f012b8b-d4cb-430f-86c3-d2a5f1cebc62")
-	)
-	(junction
 		(at 166.37 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2047,16 +2041,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 128.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "270521fe-5485-4008-a438-1d7ede52b222")
-	)
-	(wire
-		(pts
 			(xy 52.07 67.31) (xy 52.07 69.85)
 		)
 		(stroke
@@ -2157,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 125.73 72.39)
+			(xy 107.95 72.39) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3060,71 +3044,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 125.73 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a39c074-72bb-4c99-8aa0-b85c432dee21")
-		(property "Reference" "TP30"
-			(at 128.27 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 130.302 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 125.73 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e97734e-f607-49ea-a2fb-0e7e6567933c")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
-					(reference "TP30")
 					(unit 1)
 				)
 			)
