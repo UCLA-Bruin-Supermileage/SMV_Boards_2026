@@ -1906,12 +1906,6 @@
 		(uuid "191497d4-ede5-4ec4-a5c5-c967a5f502a7")
 	)
 	(junction
-		(at 48.26 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2881b80e-9abc-44ee-b519-a516789192ee")
-	)
-	(junction
 		(at 166.37 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,12 +1965,6 @@
 		(color 0 0 0 0)
 		(uuid "b832e40c-bd92-4fa3-bb8a-fd9c7211cf45")
 	)
-	(junction
-		(at 48.26 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b96d3715-c2b9-43ea-abd6-4fc8ab886cf7")
-	)
 	(wire
 		(pts
 			(xy 146.05 48.26) (xy 125.73 48.26)
@@ -1996,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "070b8334-2bc4-458b-bf46-4f89f101a54d")
-	)
-	(wire
-		(pts
-			(xy 48.26 67.31) (xy 52.07 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8369a2-e2b3-4101-b13b-c3dbf8f9c2a5")
 	)
 	(wire
 		(pts
@@ -2089,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 48.26 80.01)
+			(xy 41.91 80.01) (xy 52.07 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 67.31) (xy 48.26 67.31)
+			(xy 41.91 67.31) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2296,16 +2274,6 @@
 			(type default)
 		)
 		(uuid "8ba3153b-7235-4a67-9383-466d361109d6")
-	)
-	(wire
-		(pts
-			(xy 48.26 80.01) (xy 52.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901d2c95-b2ef-4d9b-8b0b-fced95f72c2b")
 	)
 	(wire
 		(pts
@@ -3835,136 +3803,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.26 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e01abaeb-49c4-4132-b386-627e189206e7")
-		(property "Reference" "TP29"
-			(at 50.8 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.832 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83858d18-8385-4ba1-9c9e-44df79d55204")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.26 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e03d9c1b-01cc-420d-81da-7f18b521c47d")
-		(property "Reference" "TP28"
-			(at 45.72 64.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 43.688 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 53.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.26 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c31d1c86-7a91-4641-b91a-3de743e5c4ec")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/a02d46db-e0b8-42dd-a666-3d9580ac435e"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
