@@ -5782,10 +5782,6 @@
 		(uuid "7aa68ffe-dfab-497b-b62d-c31efb1ce302")
 	)
 	(no_connect
-		(at 77.47 151.13)
-		(uuid "805e2ffb-c864-4d81-b232-8268feb771b4")
-	)
-	(no_connect
 		(at 36.83 171.45)
 		(uuid "86f34ba9-dda5-4487-9e30-11c347cd90d4")
 	)
@@ -5860,6 +5856,10 @@
 	(no_connect
 		(at 77.47 118.11)
 		(uuid "d34def22-e117-442c-8fe7-caa1fbe38921")
+	)
+	(no_connect
+		(at 36.83 168.91)
+		(uuid "d4363d37-f5ad-45a7-8958-454ff409abaa")
 	)
 	(no_connect
 		(at 77.47 95.25)
@@ -6252,6 +6252,16 @@
 			(type default)
 		)
 		(uuid "39064dfa-4af7-4749-b5a0-048cd3dc4052")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 82.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c93fcd-fc7b-422f-9ee0-04bcde171e38")
 	)
 	(wire
 		(pts
@@ -6995,16 +7005,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 168.91) (xy 36.83 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bb82d7-cde8-410d-b9c1-c1afb00439e6")
-	)
-	(wire
-		(pts
 			(xy 120.65 55.88) (xy 124.46 55.88)
 		)
 		(stroke
@@ -7431,28 +7431,6 @@
 			)
 		)
 	)
-	(global_label "relay_output"
-		(shape input)
-		(at 26.67 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7213410c-4f2f-45ff-bd5a-17d4bf3f7a03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.0132 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Control_B"
 		(shape input)
 		(at 31.75 184.15 180)
@@ -7625,6 +7603,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "relay_output"
+		(shape input)
+		(at 82.55 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecc313f3-d1fa-4bc4-a3e8-405530ff3d6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2068 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
