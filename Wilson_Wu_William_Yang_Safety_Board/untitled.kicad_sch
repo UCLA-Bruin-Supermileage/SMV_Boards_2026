@@ -2832,12 +2832,6 @@
 		(uuid "25648f5d-e82e-4992-b22b-c24c2df7759b")
 	)
 	(junction
-		(at 198.12 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2631beb7-aed1-43d4-a757-5796791fcd07")
-	)
-	(junction
 		(at 161.29 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3383,16 +3377,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 198.12 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47f67fde-a54d-49d5-b238-2f7395a8690b")
-	)
-	(wire
-		(pts
 			(xy 133.35 107.95) (xy 149.86 107.95)
 		)
 		(stroke
@@ -3670,16 +3654,6 @@
 			(type default)
 		)
 		(uuid "85af4bff-1f0f-45cf-891b-54913761415f")
-	)
-	(wire
-		(pts
-			(xy 198.12 109.22) (xy 198.12 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88601648-6b5d-4599-813d-082eefcef06b")
 	)
 	(wire
 		(pts
@@ -4063,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 92.71) (xy 205.74 92.71)
+			(xy 193.04 92.71) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5581,85 +5555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 198.12 104.14 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34275f7d-a33e-4db2-922b-2f8d80adc528")
-		(property "Reference" "D10"
-			(at 202.184 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 201.422 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a56860c-23ca-42a5-9f54-483a9f86e9ff")
-		)
-		(pin "1"
-			(uuid "0cbe3a99-3348-4aad-8878-1c8a354bda8e")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 71.12 0)
 		(unit 1)
@@ -5985,76 +5880,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 198.12 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40713ed1-1597-4b1b-bc76-b90460410235")
-		(property "Reference" "R27"
-			(at 200.66 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 200.66 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 197.104 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2d9de6b-ab56-4d45-b1b1-80bb8bddf0da")
-		)
-		(pin "1"
-			(uuid "0abdade4-77ee-4bad-a551-fe5b2ad23c6c")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8560,72 +8385,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccd4014c-15b5-4321-b4ef-8946364e3abe")
-		(property "Reference" "#PWR011"
-			(at 198.12 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f56ea2ba-9639-4aa4-9122-00cfc178a953")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
