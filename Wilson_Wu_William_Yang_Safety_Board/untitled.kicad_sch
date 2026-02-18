@@ -4134,12 +4134,6 @@
 		(uuid "7ceeb6df-1f31-4314-a7ca-0f47ca7f9535")
 	)
 	(junction
-		(at 80.01 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84907536-586c-4a64-841f-64642e443327")
-	)
-	(junction
 		(at 148.59 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4198,6 +4192,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c2269c-34bc-4e4e-9962-6def4fb5db19")
+	)
+	(junction
+		(at 125.73 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac8b378-4376-4333-a106-3c33a8313c59")
 	)
 	(junction
 		(at 100.33 193.04)
@@ -4643,16 +4643,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 50.8) (xy 19.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3773505e-9520-414b-9f87-e34107c94a54")
-	)
-	(wire
-		(pts
 			(xy 144.78 139.7) (xy 154.94 139.7)
 		)
 		(stroke
@@ -4893,16 +4883,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 66.04 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59aad86b-64f0-4884-8c08-27b69c9cd40e")
-	)
-	(wire
-		(pts
 			(xy 99.06 71.12) (xy 116.84 71.12)
 		)
 		(stroke
@@ -4993,26 +4973,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 80.01 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6837ffd7-d11c-49f2-aa83-9cc92b726ea0")
-	)
-	(wire
-		(pts
-			(xy 49.53 45.72) (xy 57.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69cc7979-92ba-4381-8555-a4c55f9a6fcc")
-	)
-	(wire
-		(pts
 			(xy 121.92 71.12) (xy 119.38 71.12)
 		)
 		(stroke
@@ -5083,7 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 137.16 106.68)
+			(xy 124.46 106.68) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5173,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 48.26) (xy 20.32 48.26)
+			(xy 17.78 48.26) (xy 20.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5280,16 +5240,6 @@
 			(type default)
 		)
 		(uuid "92c9d1aa-ca0c-4dae-99c6-4655c6428a10")
-	)
-	(wire
-		(pts
-			(xy 73.66 45.72) (xy 80.01 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93da90f5-0d4a-4016-a45d-84d8bd4c223e")
 	)
 	(wire
 		(pts
@@ -5450,16 +5400,6 @@
 			(type default)
 		)
 		(uuid "aeb38d27-6fe2-4f9c-9277-bd0825f9bf2f")
-	)
-	(wire
-		(pts
-			(xy 80.01 45.72) (xy 80.01 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef2e49b-687d-4506-af1e-e3590957f65b")
 	)
 	(wire
 		(pts
@@ -5953,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9543b3-0a7c-42c5-b2a2-5042ecdf56f1")
+	)
+	(wire
+		(pts
 			(xy 246.38 144.78) (xy 250.19 144.78)
 		)
 		(stroke
@@ -6073,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 81.28 60.96)
+			(xy 78.74 60.96) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6111,27 +6061,7 @@
 		)
 		(uuid "fdab0887-9e1f-429d-a860-bd603aa75384")
 	)
-	(label "relay conn"
-		(at 236.22 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1be634e9-e028-4c65-9232-56ea5f6fdf3d")
-	)
 	(label "estop conn"
-		(at 124.46 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e0e623b-83ed-4e96-8aed-dafb42435728")
-	)
-	(label "relay_series"
 		(at 185.42 109.22 180)
 		(effects
 			(font
@@ -6139,7 +6069,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "235d3973-b8c2-46ee-a496-e263d9280b7b")
+		(uuid "17b52b88-26e8-462b-b89d-034e8aa11e68")
+	)
+	(label "source conn"
+		(at 236.22 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4522aead-25f3-4504-832b-18bfc883caaf")
 	)
 	(label "estop conn"
 		(at 147.32 29.21 0)
@@ -6416,76 +6356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 69.85 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0273e424-d939-4e84-b55a-7f1185b14ca1")
-		(property "Reference" "R2"
-			(at 71.1201 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 68.5801 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 70.104 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58c20409-3e04-4039-b320-d46953579e69")
-		)
-		(pin "1"
-			(uuid "f70a7278-0607-442f-a957-5514e9353809")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IRLML6344TRPBF:IRLML6344TRPBF")
 		(at 96.52 59.69 0)
 		(unit 1)
@@ -6628,7 +6498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b5b982-1359-4d1d-bbd6-811f3426b1db")
-		(property "Reference" "C16"
+		(property "Reference" "C103"
 			(at 172.72 157.48 90)
 			(effects
 				(font
@@ -6680,7 +6550,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "C16")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -6696,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb80049-9b56-4d61-80b1-4c5f07b62652")
-		(property "Reference" "C19"
+		(property "Reference" "C104"
 			(at 289.56 145.0339 0)
 			(effects
 				(font
@@ -6750,7 +6620,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "C19")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -6766,7 +6636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11169f5a-15b3-483b-8a38-45d656a12b59")
-		(property "Reference" "R9"
+		(property "Reference" "R107"
 			(at 278.13 166.3699 0)
 			(effects
 				(font
@@ -6820,7 +6690,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R9")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af587bf-f048-4dd4-856e-197d2e4612b3")
-		(property "Reference" "R8"
+		(property "Reference" "R106"
 			(at 262.89 133.35 90)
 			(effects
 				(font
@@ -7487,7 +7357,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R8")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -7558,72 +7428,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c731cb-1259-44b9-99b9-39cf11605bb3")
-		(property "Reference" "#PWR025"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d60c611-9ed3-4bb6-8524-6a77d6a04c29")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8017,7 +7821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58b5cbda-085c-4a30-8923-a7d386ff60c4")
-		(property "Reference" "C13"
+		(property "Reference" "C101"
 			(at 114.3 195.5799 0)
 			(effects
 				(font
@@ -8071,7 +7875,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "C13")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -8332,7 +8136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebf158f-e48f-4afb-a694-e73c592dc66a")
-		(property "Reference" "R10"
+		(property "Reference" "R108"
 			(at 278.13 191.7699 0)
 			(effects
 				(font
@@ -8386,7 +8190,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R10")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776febaa-20b9-4d8d-8fb7-694000022c57")
-		(property "Reference" "R3"
+		(property "Reference" "R104"
 			(at 147.32 152.3999 0)
 			(effects
 				(font
@@ -8592,7 +8396,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R3")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -8772,7 +8576,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohms"
+		(property "Value" "330 ohms"
 			(at 74.93 57.15 90)
 			(effects
 				(font
@@ -9530,7 +9334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bff97b-7ea5-4c80-8332-883eb5c1ec16")
-		(property "Reference" "R15"
+		(property "Reference" "R109"
 			(at 288.29 156.2099 0)
 			(effects
 				(font
@@ -9584,7 +9388,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R15")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -9600,7 +9404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac18219-604d-415e-9549-c54488b2c190")
-		(property "Reference" "R10"
+		(property "Reference" "R103"
 			(at 134.62 152.3999 0)
 			(effects
 				(font
@@ -9654,7 +9458,74 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R10")
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a66e0ddd-c360-4333-b54f-f94bc5c355ae")
+		(property "Reference" "#PWR025"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "281d0395-2f28-4c57-a254-db47087820d0")
+		)
+		(instances
+			(project ""
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9670,7 +9541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e65a3b-8e43-481f-8f42-f8ff00799c46")
-		(property "Reference" "R4"
+		(property "Reference" "R105"
 			(at 187.96 153.67 90)
 			(effects
 				(font
@@ -9722,7 +9593,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R4")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -10162,7 +10033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8b0b464-2935-426f-a59d-635e6b823fa6")
-		(property "Reference" "R3"
+		(property "Reference" "R102"
 			(at 125.73 170.1799 0)
 			(effects
 				(font
@@ -10216,7 +10087,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R3")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -10318,7 +10189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d10dd2f6-4c37-46df-8e4f-6861c60cc1d3")
-		(property "Reference" "C15"
+		(property "Reference" "C102"
 			(at 137.16 198.1199 0)
 			(effects
 				(font
@@ -10372,7 +10243,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "C15")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -10439,74 +10310,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 85.09 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d96bb5fe-345d-4ecf-b370-ccd42b0dcd26")
-		(property "Reference" "R5"
-			(at 85.09 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 kOhms"
-			(at 85.09 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 85.344 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a0cd30f-2961-4a8d-9766-08ee6c7c7da0")
-		)
-		(pin "2"
-			(uuid "fbf54add-f447-42da-93bc-533891ae27e6")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10589,7 +10392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 50.8 0)
+		(at 17.78 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10598,7 +10401,7 @@
 		(fields_autoplaced yes)
 		(uuid "daff0062-8d6c-4478-b9c0-2c5dae3469a0")
 		(property "Reference" "#PWR056"
-			(at 19.05 57.15 0)
+			(at 17.78 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 55.88 0)
+			(at 17.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 50.8 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 50.8 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 50.8 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,85 +10517,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea7f1b25-9ecd-44c4-8569-76b2cefcd834")
-		(property "Reference" "D1"
-			(at 63.8176 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 61.2776 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f77e1ee-3fe4-458d-8712-e2c548d63caf")
-		)
-		(pin "1"
-			(uuid "50e68006-ce40-41d6-87d8-884561d93333")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11156,7 +10880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fecddb2c-8260-41d4-8916-f6a50461e00f")
-		(property "Reference" "R8"
+		(property "Reference" "R101"
 			(at 102.87 170.1799 0)
 			(effects
 				(font
@@ -11210,7 +10934,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R8")
+					(reference "R101")
 					(unit 1)
 				)
 			)
