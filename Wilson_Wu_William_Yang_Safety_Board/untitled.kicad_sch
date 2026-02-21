@@ -3381,6 +3381,16 @@
 		)
 		(uuid "fc294de3-bb2f-44ba-b134-5b41260e0ace")
 	)
+	(label "load negative"
+		(at 152.4 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0639caa2-d33c-4ee9-a83c-b5e5b72a5fb4")
+	)
 	(label "estop conn"
 		(at 49.53 64.77 0)
 		(effects
@@ -3400,16 +3410,6 @@
 			(justify right bottom)
 		)
 		(uuid "24ef6244-f6c2-4884-931f-6c47e1713a9a")
-	)
-	(label "load negative"
-		(at 167.64 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b0c8013-8f07-4d87-a423-0f45554988f0")
 	)
 	(label "estop conn"
 		(at 148.59 29.21 180)
@@ -3441,16 +3441,6 @@
 		)
 		(uuid "7bb9ca7e-39f8-49cb-ba89-068252838b65")
 	)
-	(label "source negative"
-		(at 152.4 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80a88c98-1362-4112-8bd4-2e928187bdf5")
-	)
 	(label "DRAIN"
 		(at 142.24 50.8 0)
 		(effects
@@ -3480,6 +3470,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc7f0a03-3c59-4af9-a773-2c2e22fcc795")
+	)
+	(label "source negative"
+		(at 167.64 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8d7b96d-7389-4698-8bc3-bdb324f855bd")
 	)
 	(global_label "load conn"
 		(shape input)
