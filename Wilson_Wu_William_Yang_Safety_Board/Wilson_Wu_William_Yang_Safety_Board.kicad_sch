@@ -5368,6 +5368,10 @@
 		(uuid "7aa68ffe-dfab-497b-b62d-c31efb1ce302")
 	)
 	(no_connect
+		(at 36.83 168.91)
+		(uuid "7b7739ef-d05d-48a6-816a-74eb0d658a54")
+	)
+	(no_connect
 		(at 36.83 171.45)
 		(uuid "86f34ba9-dda5-4487-9e30-11c347cd90d4")
 	)
@@ -5438,6 +5442,10 @@
 	(no_connect
 		(at 77.47 189.23)
 		(uuid "cb41b055-9c0c-4eb8-b7f0-e6a1db73c75d")
+	)
+	(no_connect
+		(at 36.83 173.99)
+		(uuid "cd842979-7dcc-4c86-aada-4d31ca815da6")
 	)
 	(no_connect
 		(at 36.83 181.61)
@@ -5869,16 +5877,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 168.91) (xy 36.83 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4633c938-f878-4992-850d-193ab7362e4a")
-	)
-	(wire
-		(pts
 			(xy 173.99 114.3) (xy 173.99 118.11)
 		)
 		(stroke
@@ -6266,16 +6264,6 @@
 			(type default)
 		)
 		(uuid "86deae21-66d8-436e-96f6-36585f606b57")
-	)
-	(wire
-		(pts
-			(xy 30.48 173.99) (xy 36.83 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c93503-a123-49e1-873c-cf9259810dac")
 	)
 	(wire
 		(pts
@@ -6987,28 +6975,6 @@
 			)
 		)
 	)
-	(global_label "Manual E-Stop 2"
-		(shape input)
-		(at 30.48 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "416472e7-f7ec-4223-9591-fbe0ffbcc800")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 10.6829 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ina_output"
 		(shape input)
 		(at 184.15 99.06 0)
@@ -7247,28 +7213,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Manual E-Stop 1"
-		(shape input)
-		(at 30.48 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fca27e8b-7103-439a-9302-06f7c05783d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 10.6829 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
