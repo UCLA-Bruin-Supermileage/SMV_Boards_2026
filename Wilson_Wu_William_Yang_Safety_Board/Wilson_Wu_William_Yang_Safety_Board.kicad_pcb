@@ -28268,52 +28268,56 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SMV_Passives:0603_resistors"
+	(footprint "Library:niche1.5ohmresistor"
 		(layer "F.Cu")
 		(uuid "f1e51579-8c96-4b46-9fe5-2faf2a981576")
 		(at 84.7264 32.8 180)
 		(property "Reference" "R106"
-			(at -0.26 -1.1 0)
+			(at 0 6.5 180)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "45dc244c-ce83-4bbb-a96d-ca8c07a08dba")
 			(effects
 				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "1.2m"
-			(at 1.49 1.1 0)
+			(at 0 9 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "26d8a262-d035-4d83-ad72-e05c668a5869")
 			(effects
 				(font
-					(size 0.393701 0.393701)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
+		(property "Datasheet" "file:///C:/Users/norma/Downloads/FR_DS_4138-EN_CSM%20Series%20nf%20final%20(02).pdf"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2e800d3-f5bf-4ad7-a325-70924f445e59")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3025536c-b9b0-490d-9d8b-2986ef74cc60")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28323,103 +28327,78 @@
 		(sheetname "/h-rensor relays/Load Switch/")
 		(sheetfile "load_switch.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 1.508 0.761)
-			(end 1.508 -0.761)
+		(fp_rect
+			(start -3.175 -1.5875)
+			(end 3.175 1.5875)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c2bd2641-05e6-477d-b854-e171de6abbb1")
+		)
+		(fp_circle
+			(center -2.5 1)
+			(end -2.3 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "529d4558-8df0-47d8-98d4-103f8e9fdc9e")
+		)
+		(fp_rect
+			(start -3.3 -1.7125)
+			(end 3.3 1.7125)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ee6fb481-e571-4b64-851a-be8d3ed3dea5")
+			(uuid "6a2bde99-1ba1-455c-bb38-0a96e1ee0309")
 		)
-		(fp_line
-			(start -1.508 0.761)
-			(end 1.508 0.761)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bad89a82-f193-4312-8b58-637072007590")
-		)
-		(fp_line
-			(start -1.508 0.761)
-			(end -1.508 -0.761)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6d028526-a459-46d4-b531-8c7716d006d1")
-		)
-		(fp_line
-			(start -1.508 -0.761)
-			(end 1.508 -0.761)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9c088b77-59c1-40b9-833b-8bd1ccfe3b4c")
-		)
-		(fp_line
-			(start 0.9 0.51)
-			(end 0.9 -0.51)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
+		(fp_text user "${REFERENCE}"
+			(at 0 10.5 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "39b5ab09-3592-4bef-bdd2-3a5340a54eff")
-		)
-		(fp_line
-			(start 0.9 0.51)
-			(end -0.9 0.51)
-			(stroke
-				(width 0.127)
-				(type solid)
+			(uuid "73a9c589-d126-4dbc-b42e-4503230618b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
-			(layer "F.Fab")
-			(uuid "4a3926b8-0e2c-42b4-a8e2-e79889f91906")
-		)
-		(fp_line
-			(start 0.9 -0.51)
-			(end -0.9 -0.51)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd6a2bf5-d8da-4dcd-a7ef-b6977aace83f")
-		)
-		(fp_line
-			(start -0.9 0.51)
-			(end -0.9 -0.51)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "31987760-8f56-454e-85a3-6fa192e0558b")
 		)
 		(pad "1" smd rect
-			(at -0.735 0 180)
-			(size 1.04 1.02)
+			(at -2.03 0 180)
+			(size 1.65 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 108 "Net-(U10-SENSE)")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "e65d6c22-dbc5-40e6-85d4-0030cc76ed1e")
 		)
 		(pad "2" smd rect
-			(at 0.735 0 180)
-			(size 1.04 1.02)
+			(at -1.02 0 180)
+			(size 0.53 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 58 "load conn")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "743c470e-252d-4276-a5bd-f98e808f9987")
+		)
+		(pad "3" smd rect
+			(at 1.02 0 180)
+			(size 0.53 1.14)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "a4f72802-de90-491f-bda6-70685a3bbfa2")
+		)
+		(pad "4" smd rect
+			(at 2.03 0 180)
+			(size 1.65 1.14)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "3d92eae7-ebc3-4f3d-8df4-0f05da942d69")
 		)
 		(embedded_fonts no)
 	)
