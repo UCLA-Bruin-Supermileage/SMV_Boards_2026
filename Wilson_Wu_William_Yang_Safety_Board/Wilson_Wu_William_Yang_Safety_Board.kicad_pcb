@@ -28270,12 +28270,12 @@
 	(footprint "Library:niche1.5ohmresistor"
 		(layer "F.Cu")
 		(uuid "f1e51579-8c96-4b46-9fe5-2faf2a981576")
-		(at 92.5 31.75 180)
+		(at 100.68 20.8 180)
 		(property "Reference" "R106"
 			(at 0 6.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "85080367-42bc-4105-bc3b-169af0f11d66")
+			(uuid "e25e64fa-5d4f-430b-9412-dd91e646ea76")
 			(effects
 				(font
 					(size 1 1)
@@ -28287,7 +28287,7 @@
 			(at 0 9 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5757b441-b5b0-4d21-9dd2-087700a7cfbb")
+			(uuid "816ff003-e6f9-48fd-9fc8-4230a3c2cb44")
 			(effects
 				(font
 					(size 1 1)
@@ -28300,7 +28300,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9c01581-056d-413c-9f73-2e6367d1555e")
+			(uuid "5da3e829-6d67-40d2-a749-b9e688cccf00")
 			(effects
 				(font
 					(size 1 1)
@@ -28313,7 +28313,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5e54c2e-6b33-47c6-b90d-88c5ee9429b6")
+			(uuid "a7e15739-8ad5-41c0-8c36-90074169807f")
 			(effects
 				(font
 					(size 1 1)
@@ -28380,22 +28380,22 @@
 			(uuid "e65d6c22-dbc5-40e6-85d4-0030cc76ed1e")
 		)
 		(pad "2" smd rect
-			(at -1.02 0 180)
-			(size 0.53 1.14)
+			(at 2.03 0 180)
+			(size 1.65 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 58 "load conn")
 			(pintype "passive")
 			(uuid "743c470e-252d-4276-a5bd-f98e808f9987")
 		)
 		(pad "3" smd rect
-			(at 1.02 0 180)
+			(at -1.02 0 180)
 			(size 0.53 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "a4f72802-de90-491f-bda6-70685a3bbfa2")
 		)
 		(pad "4" smd rect
-			(at 2.03 0 180)
-			(size 1.65 1.14)
+			(at 1.02 0 180)
+			(size 0.53 1.14)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "3d92eae7-ebc3-4f3d-8df4-0f05da942d69")
 		)
@@ -30076,8 +30076,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 32 55.5) (xy 48.5 55.5) (xy 48.5 64.75) (xy 44.5 64.75) (xy 44.5 68.75) (xy 44.5 68.75) (xy 40.25 68.75)
-			(xy 40.25 68.75) (xy 40.25 65) (xy 36 65) (xy 36 68.5) (xy 36 68.75) (xy 32.25 68.75) (xy 32 68.75)
+			(xy 32 55.5) (xy 48.5 55.5) (xy 48.5 64.75) (xy 44.5 64.75) (xy 44.5 68.75) (xy 40.25 68.75) (xy 40.25 65)
+			(xy 36 65) (xy 36 68.5) (xy 36 68.75) (xy 32.25 68.75) (xy 32 68.75)
 		)
 		(stroke
 			(width 0.2)
