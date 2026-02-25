@@ -5140,6 +5140,12 @@
 		(uuid "45b8b674-4b93-4ba9-af73-2c3a6be60b93")
 	)
 	(junction
+		(at 35.56 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "501a25db-4b9a-4bdd-95d3-5de39156a935")
+	)
+	(junction
 		(at 270.51 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5863,7 +5869,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 189.23) (xy 36.83 189.23)
+			(xy 34.29 189.23) (xy 35.56 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6540,6 +6546,16 @@
 			(type default)
 		)
 		(uuid "c515cb91-0e30-4f51-8001-da5854d89346")
+	)
+	(wire
+		(pts
+			(xy 35.56 189.23) (xy 36.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e072d8-f775-4c73-a8fc-d3e8af159cd1")
 	)
 	(wire
 		(pts
@@ -7578,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c0294ad-5c20-4f79-bde7-d00342c18248")
-		(property "Reference" "TP15"
+		(property "Reference" "RXD_TP1"
 			(at 114.3 136.6519 0)
 			(effects
 				(font
@@ -7629,7 +7645,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP15")
+					(reference "RXD_TP1")
 					(unit 1)
 				)
 			)
@@ -8998,7 +9014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d24f52-31d4-41f2-a129-ac22e55e0b10")
-		(property "Reference" "TP14"
+		(property "Reference" "TXD_TP1"
 			(at 114.3 122.4279 0)
 			(effects
 				(font
@@ -9049,7 +9065,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP14")
+					(reference "TXD_TP1")
 					(unit 1)
 				)
 			)
@@ -9646,7 +9662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3aba7e-ed14-470c-b966-22cbab2282ac")
-		(property "Reference" "TP33"
+		(property "Reference" "CAN_NEG_TP1"
 			(at 265.684 113.284 0)
 			(effects
 				(font
@@ -9697,7 +9713,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP33")
+					(reference "CAN_NEG_TP1")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9abd77fc-00dd-41b1-b315-979c8b6baf70")
-		(property "Reference" "TP10"
+		(property "Reference" "IgnitionSignal_TP1"
 			(at 33.782 160.782 0)
 			(effects
 				(font
@@ -10300,7 +10316,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP10")
+					(reference "IgnitionSignal_TP1")
 					(unit 1)
 				)
 			)
@@ -10588,7 +10604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9e22a2c-07a4-43ea-ac86-609aace6f14e")
-		(property "Reference" "TP32"
+		(property "Reference" "CAN_POS_TP1"
 			(at 263.144 134.366 0)
 			(effects
 				(font
@@ -10639,7 +10655,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP32")
+					(reference "CAN_POS_TP1")
 					(unit 1)
 				)
 			)
@@ -10985,22 +11001,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af65b06b-2439-4410-a5fb-5a2bfb903852")
-		(property "Reference" "TP9"
-			(at 247.65 32.2581 0)
+		(property "Reference" "hsensor_output_tp1"
+			(at 252.73 29.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 247.65 29.7181 0)
+			(at 252.73 32.2579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -11036,7 +11052,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP9")
+					(reference "hsensor_output_tp1")
 					(unit 1)
 				)
 			)
@@ -11384,6 +11400,74 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 189.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c42c45e0-8698-46ad-abf0-4fde81e1b2c8")
+		(property "Reference" "octocoupler_tp1"
+			(at 38.1 192.5319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 33.02 191.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b768c92-d3a5-4101-94ae-18240877b169")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
+					(reference "octocoupler_tp1")
 					(unit 1)
 				)
 			)
@@ -12488,7 +12572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbffb13a-1932-497e-b215-e1a1e3ed891b")
-		(property "Reference" "TP1"
+		(property "Reference" "mosfet_conn_tp1"
 			(at 255.27 51.3081 0)
 			(effects
 				(font
@@ -12539,7 +12623,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP1")
+					(reference "mosfet_conn_tp1")
 					(unit 1)
 				)
 			)

@@ -5,6 +5,113 @@
 	(uuid "bb79a883-f557-4a08-b95e-bb8a6f05bce9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1954,6 +2061,12 @@
 		(uuid "3701593f-8767-403b-9324-66ebc008c579")
 	)
 	(junction
+		(at 156.21 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bd70bde-f72f-4b9c-a67e-a3a8a0abc785")
+	)
+	(junction
 		(at 107.95 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2207,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 66.04) (xy 156.21 91.44)
+			(xy 156.21 66.04) (xy 156.21 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2374,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "3c20d439-e34f-4967-8bfa-22824bee3f57")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f096516-f527-4b13-8d68-3439f66987ac")
 	)
 	(wire
 		(pts
@@ -3587,6 +3710,141 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa/126bcf17-17b6-4307-9150-bd6ba2c5a143"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a0a03f-8896-4a0b-9c3e-e42919723cb0")
+		(property "Reference" "load_switch_tp3"
+			(at 152.908 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 154.1779 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcec9193-6cf4-464b-8469-b0515c8dd91e")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa/126bcf17-17b6-4307-9150-bd6ba2c5a143"
+					(reference "load_switch_tp3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "479fe1df-2d14-4e6a-8e49-8aa25860f58d")
+		(property "Reference" "load_switch_tp1"
+			(at 91.44 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 91.44 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f6d3ba7-beaf-41ad-9e1a-07f498c78f70")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa/126bcf17-17b6-4307-9150-bd6ba2c5a143"
+					(reference "load_switch_tp1")
 					(unit 1)
 				)
 			)

@@ -2859,6 +2859,12 @@
 		(uuid "03a4db05-e6c3-4ce5-ad69-9b55f115d98f")
 	)
 	(junction
+		(at 64.77 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ca7696-a5f6-46b6-a3ae-12168910ae3d")
+	)
+	(junction
 		(at 118.11 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,12 +2881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1714a7e2-d064-4c5b-b2ee-7a4d61c8bb2a")
-	)
-	(junction
-		(at 165.1 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1816723f-5c45-4d59-be55-203fc4673280")
 	)
 	(junction
 		(at 41.91 34.29)
@@ -2931,6 +2931,12 @@
 		(uuid "77955131-6953-43cc-9da8-26f65d2ede5f")
 	)
 	(junction
+		(at 142.24 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79788188-32d0-4fe7-afe1-513fec7d3b29")
+	)
+	(junction
 		(at 149.86 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2979,6 +2985,12 @@
 		(uuid "d6c7f066-b322-47cd-abf2-d18ba2529a41")
 	)
 	(junction
+		(at 140.97 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9bb7225-567c-4ebd-845a-e1c6b6832bed")
+	)
+	(junction
 		(at 62.23 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3022,6 +3034,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 34.29) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9e049c-b1c9-4a6d-b4b2-826af3169d5e")
+	)
+	(wire
+		(pts
+			(xy 229.87 73.66) (xy 229.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102912d8-07c1-4bc0-85b3-01e1723c4712")
+	)
+	(wire
+		(pts
 			(xy 130.81 58.42) (xy 137.16 58.42)
 		)
 		(stroke
@@ -3052,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 27.94) (xy 166.37 27.94)
+			(xy 163.83 27.94) (xy 166.37 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3099,16 +3131,6 @@
 			(type default)
 		)
 		(uuid "2b7165e1-f03d-44ed-aa92-5144f0b0f7b3")
-	)
-	(wire
-		(pts
-			(xy 163.83 27.94) (xy 165.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee3df6f-472b-4629-a344-e6e9db5bce85")
 	)
 	(wire
 		(pts
@@ -3372,6 +3394,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 46.99) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b81a8c-68c7-4fc4-9f18-0a6f37c1fe0e")
+	)
+	(wire
+		(pts
 			(xy 153.67 127) (xy 160.02 127)
 		)
 		(stroke
@@ -3399,6 +3431,16 @@
 			(type default)
 		)
 		(uuid "86194169-ad82-4593-9f84-49c40b33cee1")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 140.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87681b6c-4493-4a73-99d9-4dd4b418d3e7")
 	)
 	(wire
 		(pts
@@ -3732,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 34.29) (xy 66.04 34.29)
+			(xy 62.23 34.29) (xy 64.77 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3792,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 31.75) (xy 142.24 50.8)
+			(xy 142.24 31.75) (xy 142.24 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3811,12 +3853,12 @@
 		(uuid "fc294de3-bb2f-44ba-b134-5b41260e0ace")
 	)
 	(label "load negative"
-		(at 152.4 67.31 180)
+		(at 152.4 67.31 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0639caa2-d33c-4ee9-a83c-b5e5b72a5fb4")
 	)
@@ -4957,6 +4999,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41c578a0-74a4-4009-8687-5cbd4615216d")
+		(property "Reference" "source_pos_tp2"
+			(at 67.31 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 67.31 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf45116-40c3-44b3-a47a-feeb6cac1748")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "source_pos_tp2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMV_Custom:XT60-M")
 		(at 31.75 36.83 0)
 		(mirror y)
@@ -5149,6 +5259,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c79f9b-e537-45aa-a964-3f427046e38f")
+		(property "Reference" "mosfet_drain_tp1"
+			(at 140.208 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 144.2721 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b639cca-3f56-4a6d-8f13-7e91b885d713")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "mosfet_drain_tp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 58.42 121.92 0)
 		(unit 1)
@@ -5209,73 +5386,6 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "570acc77-3541-4e7a-963c-ff1de4cfcee2")
-		(property "Reference" "TP12"
-			(at 162.56 25.9081 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 162.56 23.3681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 170.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e73cc85-54b6-4490-8001-4b3369685bbf")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -5349,6 +5459,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 229.87 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61ce4315-8a9c-44d4-8c69-56d9c1d106b9")
+		(property "Reference" "load_neg_tp1"
+			(at 232.664 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 227.33 75.6921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d13b98-e77f-4662-b736-7377a2f9a991")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "load_neg_tp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 118.11 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5356,7 +5533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d2fd1a0-4482-4b3f-910f-4c76ba583143")
-		(property "Reference" "TP4"
+		(property "Reference" "RELAY_O_TP1"
 			(at 116.84 64.77 0)
 			(effects
 				(font
@@ -5407,7 +5584,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP4")
+					(reference "RELAY_O_TP1")
 					(unit 1)
 				)
 			)
@@ -5901,7 +6078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e32c87a-412d-4b23-84a1-41b1b9b98340")
-		(property "Reference" "TP13"
+		(property "Reference" "load_pos_tp1"
 			(at 224.79 64.0079 0)
 			(effects
 				(font
@@ -5952,7 +6129,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP13")
+					(reference "load_pos_tp1")
 					(unit 1)
 				)
 			)
@@ -6039,7 +6216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831df266-0d20-42cd-bf2a-635434132371")
-		(property "Reference" "TP_48V5"
+		(property "Reference" "HFC_RELAY_TP1"
 			(at 166.37 102.1079 0)
 			(effects
 				(font
@@ -6091,7 +6268,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP_48V5")
+					(reference "HFC_RELAY_TP1")
 					(unit 1)
 				)
 			)
@@ -6534,6 +6711,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a5f323-d65d-445e-af54-568b736c3bbd")
+		(property "Reference" "source_pos_tp1"
+			(at 43.434 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 38.1 38.8621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "317d7ccc-4ee8-4d5f-bebc-00244f8d982c")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "source_pos_tp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9e63b3-9bfd-4262-860a-18753f6911f3")
+		(property "Reference" "mosfet_drain_tp2"
+			(at 139.7 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 143.51 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0987b7-6afc-41f3-a7d5-0df20d95f87c")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "mosfet_drain_tp2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 41.91 77.47 0)
 		(mirror y)
@@ -6629,7 +6940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d24d291f-0530-489e-a2c4-7e2f4cfae378")
-		(property "Reference" "TP8"
+		(property "Reference" "ESTOP_TP1"
 			(at 16.7639 172.466 90)
 			(effects
 				(font
@@ -6680,7 +6991,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP8")
+					(reference "ESTOP_TP1")
 					(unit 1)
 				)
 			)
@@ -7540,8 +7851,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe459a3e-c4ab-4513-9dda-a3cabc66ac73")
-		(property "Reference" "TP_48V6"
-			(at 165.862 133.096 90)
+		(property "Reference" "HFC_NEG_TP1"
+			(at 165.608 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7903,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "TP_48V6")
+					(reference "HFC_NEG_TP1")
 					(unit 1)
 				)
 			)

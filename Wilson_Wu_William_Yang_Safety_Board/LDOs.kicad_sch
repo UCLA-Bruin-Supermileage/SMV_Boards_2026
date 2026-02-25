@@ -1294,6 +1294,12 @@
 		(uuid "2e2a8967-af54-4a6a-8a55-06f2bf1362dc")
 	)
 	(junction
+		(at 105.41 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301c9415-c3c2-425a-bdcc-0a04d4d33212")
+	)
+	(junction
 		(at 36.83 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1340,6 +1346,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0ff0311-5323-462c-a4e7-5768ee68943b")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cbdc06-5a83-4bd5-b2dd-ba46dfd11f56")
 	)
 	(wire
 		(pts
@@ -1473,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 114.3 83.82)
+			(xy 99.06 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1490,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "a70d479c-513f-441a-81bc-5a2be886a95d")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff2e8d0-6ba6-42eb-bff8-a8aba8ae6207")
 	)
 	(wire
 		(pts
@@ -2209,7 +2235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5V0_LDO_TP"
 			(at 102.87 31.7499 90)
 			(effects
 				(font
@@ -2726,6 +2752,73 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/b2ba9052-388b-4c74-b799-940f541ae929"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e93c22c6-bcac-4a52-8dd3-a739c1728919")
+		(property "Reference" "ADJ_LDO_TP1"
+			(at 99.06 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_DIVIDED"
+			(at 107.95 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6d6125-5d25-4110-81ae-d3aaadfbcdd0")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/b2ba9052-388b-4c74-b799-940f541ae929"
+					(reference "ADJ_LDO_TP1")
 					(unit 1)
 				)
 			)
