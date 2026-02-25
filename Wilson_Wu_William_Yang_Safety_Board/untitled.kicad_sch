@@ -2937,6 +2937,12 @@
 		(uuid "79788188-32d0-4fe7-afe1-513fec7d3b29")
 	)
 	(junction
+		(at 142.24 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c380ab9-5016-4399-90d8-e3ac55b33bf0")
+	)
+	(junction
 		(at 149.86 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3844,6 +3850,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d7c52e-b4f9-40a4-b04d-9a2f1f98cfb7")
+	)
+	(wire
+		(pts
 			(xy 129.54 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -3912,26 +3928,6 @@
 		)
 		(uuid "7bb9ca7e-39f8-49cb-ba89-068252838b65")
 	)
-	(label "DRAIN"
-		(at 142.24 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ce96baa-abf4-48ec-a23e-35f4fd966207")
-	)
-	(label "DRAIN"
-		(at 160.02 111.76 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adaccb8f-c938-4bbb-985d-a0c7976b8805")
-	)
 	(label "source negative"
 		(at 40.64 36.83 270)
 		(effects
@@ -3951,6 +3947,28 @@
 			(justify left bottom)
 		)
 		(uuid "e8d7b96d-7389-4698-8bc3-bdb324f855bd")
+	)
+	(global_label "drain"
+		(shape input)
+		(at 158.75 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aa275c8-d169-43d5-a8f5-cdebb6939ac6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.5732 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "load conn"
 		(shape input)
@@ -4058,6 +4076,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "drain"
+		(shape input)
+		(at 160.02 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e33588bb-8e1c-415c-96ac-f63356478a23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 103.9368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4993,6 +5033,73 @@
 			(project ""
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef51378-c000-44ad-a13e-025abb2e74c2")
+		(property "Reference" "R_6"
+			(at 154.94 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.94 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 154.686 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a46831c9-6ae5-49c2-af76-f36ea2f81f88")
+		)
+		(pin "2"
+			(uuid "bfb3fe8d-dada-4a94-9b79-57dec18645a7")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "R_6")
 					(unit 1)
 				)
 			)
