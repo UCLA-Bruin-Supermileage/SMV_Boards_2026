@@ -2847,7 +2847,13 @@
 		(uuid "84874961-6a30-48b1-9e99-bff32fdc14fb")
 	)
 	(junction
-		(at 120.65 58.42)
+		(at 118.11 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "032bd394-da4c-4541-9707-84dacaad7365")
+	)
+	(junction
+		(at 106.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03a4db05-e6c3-4ce5-ad69-9b55f115d98f")
@@ -2859,7 +2865,7 @@
 		(uuid "04ca7696-a5f6-46b6-a3ae-12168910ae3d")
 	)
 	(junction
-		(at 118.11 68.58)
+		(at 104.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05adfc5d-8567-41c3-bb19-a18fa3815d41")
@@ -2895,12 +2901,6 @@
 		(uuid "2dce23ec-b517-44f7-b035-7e288e2d39aa")
 	)
 	(junction
-		(at 130.81 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ebd3d76-7888-406a-b608-a07c3c4c98cb")
-	)
-	(junction
 		(at 58.42 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2913,10 +2913,10 @@
 		(uuid "365baaad-c4cd-4193-b96e-fc7463bda964")
 	)
 	(junction
-		(at 161.29 124.46)
+		(at 147.32 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c146a44-cd7e-4e7b-b460-c127fc8fe107")
+		(uuid "420ba9ef-3f46-4df3-a23c-0d7cf8f5b043")
 	)
 	(junction
 		(at 165.1 118.11)
@@ -2961,7 +2961,7 @@
 		(uuid "8dfa0253-97a6-4205-bf4d-8d158d567434")
 	)
 	(junction
-		(at 114.3 58.42)
+		(at 100.33 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fd7fe9e-d962-4875-bcde-e0766721e774")
@@ -2985,12 +2985,6 @@
 		(uuid "a0fa23b9-2caa-46b4-a813-7d6ee3b3037e")
 	)
 	(junction
-		(at 147.32 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad5ab965-0cd0-47f3-8721-5866dedcb74e")
-	)
-	(junction
 		(at 52.07 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3007,6 +3001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c7f066-b322-47cd-abf2-d18ba2529a41")
+	)
+	(junction
+		(at 161.29 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da464955-bd82-43ff-bf3f-26229501f95e")
 	)
 	(junction
 		(at 62.23 34.29)
@@ -3029,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "04f67474-b43c-4954-97d1-b45b4a6623e9")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089986a8-9fb6-4ab9-9c17-3769845f09dd")
 	)
 	(wire
 		(pts
@@ -3082,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 114.3 58.42)
+			(xy 100.33 45.72) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 118.11 68.58)
+			(xy 102.87 68.58) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3112,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 161.29 109.22)
+			(xy 161.29 102.87) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 114.3 58.42)
+			(xy 106.68 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 114.3 58.42)
+			(xy 93.98 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3222,6 +3232,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4782d20b-94f2-4098-af0d-c47e191436a2")
+	)
+	(wire
+		(pts
 			(xy 170.18 71.12) (xy 167.64 71.12)
 		)
 		(stroke
@@ -3282,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 120.65 66.04)
+			(xy 106.68 68.58) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 137.16 58.42)
+			(xy 115.57 58.42) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3352,16 +3372,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 130.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66428c12-7bfb-4863-ab03-0cfdf26c0410")
-	)
-	(wire
-		(pts
 			(xy 165.1 71.12) (xy 167.64 71.12)
 		)
 		(stroke
@@ -3369,6 +3379,16 @@
 			(type default)
 		)
 		(uuid "6ad804a0-2371-48fe-bfa0-1e3b88a50311")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9cb7f9-6bb4-45ff-b22b-a5ac2a294e6c")
 	)
 	(wire
 		(pts
@@ -3422,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 92.71 45.72)
+			(xy 76.2 45.72) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3442,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83deb198-9827-4d5a-8a47-d7531d2de953")
+	)
+	(wire
+		(pts
 			(xy 154.94 124.46) (xy 161.29 124.46)
 		)
 		(stroke
@@ -3449,6 +3479,16 @@
 			(type default)
 		)
 		(uuid "84f45b6d-fcb6-4690-90be-3ca807a91dfc")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854eaed9-ef6a-4dec-a58b-d7310961b442")
 	)
 	(wire
 		(pts
@@ -3502,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 114.3 45.72)
+			(xy 93.98 45.72) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3612,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 120.65 68.58)
+			(xy 104.14 68.58) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3722,16 +3762,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 130.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff435a4-7d9a-429f-aa38-a781ea1609ee")
-	)
-	(wire
-		(pts
 			(xy 43.18 128.27) (xy 43.18 129.54)
 		)
 		(stroke
@@ -3812,6 +3842,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 71.12) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82819ad-415c-4d30-a466-b81f9fb0689c")
+	)
+	(wire
+		(pts
 			(xy 22.86 187.96) (xy 22.86 181.61)
 		)
 		(stroke
@@ -3842,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 121.92 58.42)
+			(xy 106.68 58.42) (xy 107.95 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3879,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "f6d7c52e-b4f9-40a4-b04d-9a2f1f98cfb7")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 130.81 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc294de3-bb2f-44ba-b134-5b41260e0ace")
 	)
 	(label "load negative"
 		(at 152.4 67.31 90)
@@ -4060,7 +4090,7 @@
 	)
 	(global_label "relay_output"
 		(shape input)
-		(at 116.84 68.58 180)
+		(at 102.87 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4070,7 +4100,7 @@
 		)
 		(uuid "c16db06d-8ada-4cc9-a829-7dd5e91c3de4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.1832 68.58 0)
+			(at 88.2132 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4112,7 @@
 	)
 	(global_label "MOSFET Connection"
 		(shape input)
-		(at 107.95 58.42 180)
+		(at 93.98 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4092,7 +4122,7 @@
 		)
 		(uuid "c6d67114-593c-46fc-947e-cede0c43a6ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2779 58.42 0)
+			(at 72.3079 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,15 +4479,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 120.65 180)
+		(at 118.11 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "035abef6-184f-45bc-8cfe-1ce944c60b28")
-		(property "Reference" "R2"
-			(at 163.83 120.396 0)
+		(uuid "0b7dee40-99fc-49d2-80d0-3eb42077dd4f")
+		(property "Reference" "R16"
+			(at 115.57 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4496,7 @@
 			)
 		)
 		(property "Value" "100ohm"
-			(at 163.83 122.936 0)
+			(at 115.57 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 160.274 120.396 90)
+			(at 119.126 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 120.65 0)
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4523,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 161.29 120.65 0)
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,15 +4532,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7cafcc66-2960-4721-8fbc-240c07c869ff")
+			(uuid "5b9cf06a-28b1-42b9-b07c-dabd477975d7")
 		)
 		(pin "1"
-			(uuid "0d0301d8-3b5e-463f-9100-a1d5027d54bc")
+			(uuid "90157726-567a-4fde-adf5-f226fe89a08b")
 		)
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4778,85 +4808,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 161.29 113.03 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bc0e36c-07eb-427d-8b35-b8d0f81da096")
-		(property "Reference" "D6"
-			(at 155.956 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 158.496 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
-			(at 161.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 161.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4a342dc-047d-4a85-a698-c4670ecfe507")
-		)
-		(pin "1"
-			(uuid "4954b4d3-8745-4203-aa7d-5bbfa69e01ef")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5469,6 +5420,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 118.11 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b0efc85-6f88-4afb-a88c-0294a9049ac4")
+		(property "Reference" "D8"
+			(at 123.444 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 120.904 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ced316fb-1f0a-406c-9eda-0c2a41873e4f")
+		)
+		(pin "1"
+			(uuid "54fbf49b-1847-4938-a631-ff1e7c4cab6e")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 58.42 121.92 0)
 		(unit 1)
@@ -5669,7 +5699,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 68.58 0)
+		(at 104.14 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5677,7 +5707,7 @@
 		(dnp no)
 		(uuid "6d2fd1a0-4482-4b3f-910f-4c76ba583143")
 		(property "Reference" "RELAY_O_TP1"
-			(at 116.84 64.77 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5716,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 119.38 62.738 0)
+			(at 105.41 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5725,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 68.58 0)
+			(at 109.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 68.58 0)
+			(at 109.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5743,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 68.58 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5918,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 125.73 58.42 270)
+		(at 111.76 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +5927,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b2c2907-3a54-4cd5-bbb9-77763761d163")
 		(property "Reference" "R1"
-			(at 125.73 52.07 90)
+			(at 111.76 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5935,7 @@
 			)
 		)
 		(property "Value" "330 ohms"
-			(at 125.73 54.61 90)
+			(at 111.76 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5943,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.476 59.436 90)
+			(at 111.506 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 58.42 0)
+			(at 111.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5961,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 125.73 58.42 0)
+			(at 111.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6175,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 62.23 180)
+		(at 106.68 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6153,7 +6183,7 @@
 		(dnp no)
 		(uuid "7d3a2ce3-cd28-4b72-b548-d71ab733a4ed")
 		(property "Reference" "R7"
-			(at 121.666 60.96 0)
+			(at 107.696 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6192,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 121.666 63.5 0)
+			(at 107.696 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 119.634 61.976 90)
+			(at 105.664 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 62.23 0)
+			(at 106.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6219,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 62.23 0)
+			(at 106.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6600,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 96.52 45.72 0)
+		(at 82.55 45.72 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6579,7 +6609,7 @@
 		(dnp no)
 		(uuid "92dd507b-b178-482a-bbec-1ada774b0695")
 		(property "Reference" "D5"
-			(at 98.044 42.418 0)
+			(at 84.074 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6618,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 98.044 39.878 0)
+			(at 84.074 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6627,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
-			(at 96.52 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6645,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 96.52 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6654,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 104.14 45.72 90)
+		(at 90.17 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6860,7 +6890,7 @@
 		(dnp no)
 		(uuid "ab8bc924-d5ae-481e-bc0d-5ece4caf02ee")
 		(property "Reference" "R6"
-			(at 102.235 48.8949 90)
+			(at 88.265 48.8949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6899,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.235 51.4349 90)
+			(at 88.265 51.4349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6908,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.394 44.704 90)
+			(at 90.424 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 45.72 0)
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6926,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 104.14 45.72 0)
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,16 +6950,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 147.32 74.93 0)
+		(lib_id "Device:LED")
+		(at 129.54 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd73dd91-6aac-4806-bdc5-e224e94c0a69")
-		(property "Reference" "R21"
-			(at 144.78 75.184 0)
+		(uuid "b9fe1122-97d1-428e-917f-e2539d163b97")
+		(property "Reference" "D6"
+			(at 127.762 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,8 +6968,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100ohm"
-			(at 144.78 72.644 0)
+		(property "Value" "LED"
+			(at 127.762 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,8 +6977,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 148.336 75.184 90)
+		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 74.93 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,8 +6995,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 147.32 74.93 0)
+		(property "Description" "Light emitting diode"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,15 +7014,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bf09572b-dc89-4591-99ae-b13bf10cccc2")
+			(uuid "36fcee41-a087-42b0-a21f-c496a20bca79")
 		)
 		(pin "1"
-			(uuid "d9135e3c-8532-4b78-a9dd-2c9c9c9b259c")
+			(uuid "9a254c2e-448d-47ae-9ae3-b832ba3558a2")
 		)
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "R21")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7276,85 +7316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 143.51 78.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7dc614f-4424-46ec-b0ad-6619bdfaa8e4")
-		(property "Reference" "D9"
-			(at 145.288 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 145.288 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Foshan-NTD3528_3.5x2.8mm"
-			(at 143.51 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 143.51 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff05b5dc-2318-4222-8b0f-0c7f40e6165d")
-		)
-		(pin "1"
-			(uuid "63e12c3b-950a-476c-a5fc-608a4a30e2d3")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "J115F11AH12VDCS61.5U_1")
 		(lib_id "SMV_Custom:J115F11AH12VDCS61.5U")
 		(at 160.02 68.58 0)
@@ -7431,16 +7392,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 45.72 0)
+		(at 76.2 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "daff0062-8d6c-4478-b9c0-2c5dae3469a0")
 		(property "Reference" "#PWR056"
-			(at 90.17 52.07 0)
+			(at 76.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 50.8 0)
+			(at 75.946 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 45.72 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 45.72 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 45.72 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,6 +7652,75 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 121.92 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb51e941-6da9-4950-a616-7a321dadf1b4")
+		(property "Reference" "R2"
+			(at 122.174 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100ohm"
+			(at 119.634 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 122.174 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "396d22ae-daa8-4238-b783-7e02702465e2")
+		)
+		(pin "1"
+			(uuid "09c91100-37ef-4719-8ed8-55971f31d7b8")
+		)
+		(instances
+			(project "Wilson_Wu_William_Yang_Safety_Board"
+				(path "/fa857c32-0741-4b91-b122-1a57686bb514/3aab1625-1497-4612-8772-a9d051eba0fa"
+					(reference "R2")
 					(unit 1)
 				)
 			)
