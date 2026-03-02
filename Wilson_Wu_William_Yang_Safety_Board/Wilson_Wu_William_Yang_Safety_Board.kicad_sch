@@ -6190,16 +6190,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 17.78) (xy 262.89 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6f8f21-3922-4043-aa40-508a009e02ec")
-	)
-	(wire
-		(pts
 			(xy -13.97 189.23) (xy -12.7 189.23)
 		)
 		(stroke
@@ -6380,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 26.67) (xy 262.89 29.21)
+			(xy 262.89 17.78) (xy 262.89 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6650,7 +6640,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 120.65) (xy 267.97 120.65)
+			(xy 265.43 120.65) (xy 267.97 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +6980,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 17.78) (xy 255.27 19.05)
+			(xy 255.27 17.78) (xy 255.27 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7414,28 +7404,6 @@
 			)
 		)
 	)
-	(global_label "CAN+"
-		(shape input)
-		(at 185.42 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "288cbb74-9f31-4b62-adc0-50b56c60be91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6667 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "optocoupler-output"
 		(shape input)
 		(at 34.29 189.23 180)
@@ -7570,28 +7538,6 @@
 	)
 	(global_label "CAN-"
 		(shape input)
-		(at 185.42 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62a49706-825e-429b-8f2a-6a322ea8f37f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6667 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN+"
-		(shape input)
 		(at 270.51 134.62 270)
 		(fields_autoplaced yes)
 		(effects
@@ -7600,7 +7546,7 @@
 			)
 			(justify right)
 		)
-		(uuid "62a5176c-b7f0-451b-905a-5671d4f1a580")
+		(uuid "60943399-ffcd-482d-b637-a42e1977166b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.51 142.8667 90)
 			(effects
@@ -7608,6 +7554,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
+		(shape input)
+		(at 185.42 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a92be4f-b4df-4cd9-bfe3-92d961cc16c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.6667 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7625,6 +7593,28 @@
 		(uuid "8fa0df32-f9b6-4329-9143-a08c4a4749be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.77 64.0054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
+		(shape input)
+		(at 265.43 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ff641fc-b827-4fcf-8e57-3fee052d27d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.1833 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,6 +7646,28 @@
 			)
 		)
 	)
+	(global_label "CAN-"
+		(shape input)
+		(at 185.42 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4bf046d-d973-46ec-a8b3-6875965f99fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.6667 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Hydrogen-Output"
 		(shape input)
 		(at 29.21 156.21 180)
@@ -7669,28 +7681,6 @@
 		(uuid "ba27245a-1dc9-412c-9041-3663da0df745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 9.6546 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN-"
-		(shape input)
-		(at 266.7 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb104a45-4b84-421e-ab69-d141e08e4f4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.4533 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,73 +10857,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fcd03fc-db7a-4e90-a5e9-aa487d201856")
-		(property "Reference" "R_3"
-			(at 259.842 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.302 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.286 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e15fdbd7-d784-4251-b0bb-7e38fa1be4b3")
-		)
-		(pin "2"
-			(uuid "c1e0a0e2-2020-48fc-975c-d99a457761b6")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "R_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 90.17 0)
 		(unit 1)
@@ -11734,73 +11657,6 @@
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 262.89 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae40ee00-2168-4dbc-9c2a-808422ebaa30")
-		(property "Reference" "R_4"
-			(at 267.462 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 264.922 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 263.906 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 262.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb8c024d-d99d-493f-85f8-f090baf74692")
-		)
-		(pin "2"
-			(uuid "7a707957-a03e-4fd2-8612-407f3faeacc7")
-		)
-		(instances
-			(project "Wilson_Wu_William_Yang_Safety_Board"
-				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "R_4")
 					(unit 1)
 				)
 			)
