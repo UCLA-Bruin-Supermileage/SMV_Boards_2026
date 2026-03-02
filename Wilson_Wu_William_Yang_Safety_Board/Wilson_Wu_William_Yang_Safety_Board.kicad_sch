@@ -11531,7 +11531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa513547-c0e4-47d1-b42f-bed7a1ddf46f")
-		(property "Reference" "TP2"
+		(property "Reference" "ina_tp1"
 			(at 180.086 106.426 0)
 			(effects
 				(font
@@ -11582,7 +11582,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP2")
+					(reference "ina_tp1")
 					(unit 1)
 				)
 			)
@@ -13305,20 +13305,21 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e88b4490-9951-4bbb-b6e8-10e3b9d85e0f")
-		(property "Reference" "TP6"
-			(at 104.648 88.9 90)
+		(property "Reference" "v-dvider-tp1"
+			(at 104.648 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "v-dvider-tp"
 			(at 104.648 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -13354,7 +13355,7 @@
 		(instances
 			(project "Wilson_Wu_William_Yang_Safety_Board"
 				(path "/fa857c32-0741-4b91-b122-1a57686bb514"
-					(reference "TP6")
+					(reference "v-dvider-tp1")
 					(unit 1)
 				)
 			)
