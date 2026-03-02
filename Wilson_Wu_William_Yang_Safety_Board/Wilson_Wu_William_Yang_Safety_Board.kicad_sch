@@ -5723,6 +5723,10 @@
 		(uuid "2b5201f0-3347-48f9-adf4-71f5f72ddce5")
 	)
 	(no_connect
+		(at 77.47 181.61)
+		(uuid "31f1ad3d-af27-424d-a293-943dd82af4b8")
+	)
+	(no_connect
 		(at 77.47 102.87)
 		(uuid "3232f7fa-100e-4009-9cf8-d6fd239a08cd")
 	)
@@ -5783,6 +5787,10 @@
 		(uuid "88f52e3b-e7ef-45b1-9d5b-fdd23c0b13c7")
 	)
 	(no_connect
+		(at 77.47 186.69)
+		(uuid "892da1a1-15ed-459d-b1c5-6af84b78e56b")
+	)
+	(no_connect
 		(at 77.47 125.73)
 		(uuid "8a54d697-ab9d-4e0b-83b1-1b7340a78542")
 	)
@@ -5801,10 +5809,6 @@
 	(no_connect
 		(at 36.83 161.29)
 		(uuid "984bfbfa-6baf-49c6-a593-3baff635b6ba")
-	)
-	(no_connect
-		(at 77.47 128.27)
-		(uuid "99f9c2ad-789d-4a55-8741-da0b991063c7")
 	)
 	(no_connect
 		(at 36.83 110.49)
@@ -5865,10 +5869,6 @@
 	(no_connect
 		(at 93.98 168.91)
 		(uuid "df4e0e19-dbd4-4452-88f3-d34e6a3f5ec4")
-	)
-	(no_connect
-		(at 77.47 123.19)
-		(uuid "e39f25d4-4f52-427d-bf96-70fd38b3cb0b")
 	)
 	(no_connect
 		(at 77.47 179.07)
@@ -6190,16 +6190,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 186.69) (xy 81.28 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd19644-faf7-45ee-90f8-aba7f81cef68")
-	)
-	(wire
-		(pts
 			(xy 262.89 17.78) (xy 262.89 19.05)
 		)
 		(stroke
@@ -6257,16 +6247,6 @@
 			(type default)
 		)
 		(uuid "3ff4f729-5fe8-462c-9e68-8a4bd5e1c245")
-	)
-	(wire
-		(pts
-			(xy 90.17 181.61) (xy 77.47 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d31a00-4a2c-449d-baac-a297b20290b8")
 	)
 	(wire
 		(pts
@@ -6370,6 +6350,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 123.19) (xy 77.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bec023-7308-417e-878e-ce34dfe8032e")
+	)
+	(wire
+		(pts
 			(xy 101.6 168.91) (xy 101.6 166.37)
 		)
 		(stroke
@@ -6377,6 +6367,16 @@
 			(type default)
 		)
 		(uuid "559c9c6e-2e2e-4675-b377-37657de36676")
+	)
+	(wire
+		(pts
+			(xy 80.01 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8bee3c-3e89-4013-bf07-f06bd542416e")
 	)
 	(wire
 		(pts
@@ -7308,7 +7308,7 @@
 		)
 		(uuid "ffbfd09f-1926-4ced-98a7-76fcaca74ca1")
 	)
-	(label "PA3"
+	(label "PA12"
 		(at 93.98 161.29 180)
 		(effects
 			(font
@@ -7318,15 +7318,35 @@
 		)
 		(uuid "54c7eb1d-c6f0-47ab-80df-6bc4e126c47c")
 	)
-	(label "PA3"
-		(at 81.28 186.69 0)
+	(label "PA11"
+		(at 90.17 181.61 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "864b0813-511b-49ef-b7a7-ea5cfde209af")
+		(uuid "563cbcc8-8917-470a-bfcd-a7425ce8596d")
+	)
+	(label "PA12"
+		(at 80.01 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78d227a3-6b36-4e04-8734-2ad755fee2f5")
+	)
+	(label "PA11"
+		(at 80.01 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6e1477c-d0be-4635-a1e7-a9799a387164")
 	)
 	(global_label "ignition signal"
 		(shape input)
