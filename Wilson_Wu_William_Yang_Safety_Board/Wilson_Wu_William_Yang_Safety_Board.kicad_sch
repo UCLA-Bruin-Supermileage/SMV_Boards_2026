@@ -5482,6 +5482,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Check polarity of the can connector."
+		(exclude_from_sim no)
+		(at 223.266 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d67af6c3-91a1-47a8-a366-09ae60013f9e")
+	)
 	(junction
 		(at 81.28 110.49)
 		(diameter 0)
@@ -7536,7 +7548,7 @@
 			)
 		)
 	)
-	(global_label "CAN-"
+	(global_label "CAN+"
 		(shape input)
 		(at 270.51 134.62 270)
 		(fields_autoplaced yes)
@@ -7558,7 +7570,7 @@
 			)
 		)
 	)
-	(global_label "CAN+"
+	(global_label "CAN-"
 		(shape input)
 		(at 185.42 135.89 0)
 		(fields_autoplaced yes)
@@ -7602,7 +7614,7 @@
 			)
 		)
 	)
-	(global_label "CAN+"
+	(global_label "CAN-"
 		(shape input)
 		(at 265.43 120.65 180)
 		(fields_autoplaced yes)
@@ -7646,7 +7658,7 @@
 			)
 		)
 	)
-	(global_label "CAN-"
+	(global_label "CAN+"
 		(shape input)
 		(at 185.42 128.27 0)
 		(fields_autoplaced yes)
